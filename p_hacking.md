@@ -57,8 +57,6 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 [^1]: 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영가설이 더 타당할 듯 싶다. 이 글에서는 영가설로 쓰도록 하자.[↩](#a1)
 
- 영가설을 기각하고 효과가 있다고 생각한다. 앞으로 영가설은 $H_0$로도 적겠다. 
-
 <p align="center"><kbd>
   <img src="https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png" width="600">
 </kbd></p>
@@ -100,7 +98,7 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png?w=860)
 
 <div class='container'> 
- <img src='https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png' />
+ <img src='https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png'>
 </div>
 
 자 이제 업계의 관행대로 1종 오류를 5%로 두자.(즉 $\alpha = 0.05$)로 두자. 이는 false positive의 비율, 즉 효과가 없는데도 효과가 있다는 예측을결과를 얻을 확률을 5%까지 허용한다는 이야기다. 1,000 번의 실험에서이라면 효과가 없는 900번개 중에서 약 45번(= 900 X 0.05)개 정도는 효과가 있는 것으로 보고된될 수 있다. 
@@ -145,8 +143,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNzg3NzksLTE5MTg1NjQxMjUsLTE1Mj
-IxNTU2MDUsLTE4NjgyOTg3MDAsMjExNzM1Mzc4NSwtMTcxMzky
-MTk3MiwxNTI0ODM3OTc4LC0xNTk0NDg4MDUzLDE5ODIyNTExOF
-19
+eyJoaXN0b3J5IjpbOTU5MTIyMDg1LC0xOTE4NTY0MTI1LC0xNT
+IyMTU1NjA1LC0xODY4Mjk4NzAwLDIxMTczNTM3ODUsLTE3MTM5
+MjE5NzIsMTUyNDgzNzk3OCwtMTU5NDQ4ODA1MywxOTgyMjUxMT
+hdfQ==
 -->
