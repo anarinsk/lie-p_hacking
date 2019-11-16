@@ -28,12 +28,12 @@ p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 �
 
 $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
-|                             | TRUE | FALSE |
+| | TRUE | FALSE |
 |--|--|--|
-| **pPositive** | true pPositive | false pPositive  |
-| **nNegative** | false nNegative |  true nNegative |
+| **positive** | true positive | false positive  |
+| **negative** | false negative |  true negative |
 
-표에서 열(column)은 일종의 '사실 조건'을 나타낸다. 사실 조건이란 $x$가 실제로 존재하는지 여부를 POSITIVE/NEGATIVE 둘로 구분한 것이다. 행은 예측 결과를 나타낸다. $x$의 존재 유무에 대한 예측을 각각 positive/ 상태를 두 가지로 구분한 것이라고 보면 되겠다. TRUE는 어떤 가설에 맞게 존재하는 상태를 나타낸다. 일단 true라는 형용사를 쓰지 않고 TRUE라고 모두 대문자로 쓴 점에 유의하자. 이는 사실에 대한 라벨링(이름붙이기)에 다름 아니다. 어떤 메일이 스팸이다, 아니다 정도를 떠올리면 되겠다. 
+표에서 TRUE, FALSE는 일종의 '사실 조건'을 나타낸다. 사실 조건이란 어떤 대상이 실제로 존재하는지 여부를 나타낸다. TRUE면 존재하고 FALSE면 존재하지 않는 것으로 지칭하겠다. positive, negative는 tk 둘로 구분한 것이다. 행은 예측 결과를 나타낸다. $x$의 존재 유무에 대한 예측을 각각 positive/ 상태를 두 가지로 구분한 것이라고 보면 되겠다. TRUE는 어떤 가설에 맞게 존재하는 상태를 나타낸다. 일단 true라는 형용사를 쓰지 않고 TRUE라고 모두 대문자로 쓴 점에 유의하자. 이는 사실에 대한 라벨링(이름붙이기)에 다름 아니다. 어떤 메일이 스팸이다, 아니다 정도를 떠올리면 되겠다. 
 
 행은 예측 결과를 구분한 것이다. 어떤 대상에 대해서 TRUE라고 예측하는 경우를 Positive라고 하고 FALSE라고 예측하는 경우를 negative로 나타내라고 하자. 사실 조건과 예측에 따라서 네 가지 경우가 생성된다. 우선, 예측과 사실 조건이 맞는 경우는 형용사 true를 쓰도록 하자. 
 
@@ -145,7 +145,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTEwNTA0NSwtMTg2ODI5ODcwMCwyMT
+eyJoaXN0b3J5IjpbMTIxODE4NjQ0OSwtMTg2ODI5ODcwMCwyMT
 E3MzUzNzg1LC0xNzEzOTIxOTcyLDE1MjQ4Mzc5NzgsLTE1OTQ0
 ODgwNTMsMTk4MjI1MTE4XX0=
 -->
