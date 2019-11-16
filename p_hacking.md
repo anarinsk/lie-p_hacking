@@ -59,8 +59,6 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
  영가설을 기각하고 효과가 있다고 생각한다. 앞으로 영가설은 $H_0$로도 적겠다. 
 
-보시는 것처럼 보통  혼동 행렬에서 존재함(효과 있음)을 "POSITIVEositive"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 실제로 저자에 따라서는 둘을 바꿔쓰기도 한그래서 앞에서 positive를 그냥 "이름표"로 봐 달라고 미리 밝혔다. 혼란의 여지가 다소 있지만 중요한 것은 이름이 아니라 취지이므로 일단 우리는 업계의 관행을 존중하도록 하자. 
-
 <p align="center"><kbd>
   <img src="https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png" width="600">
 </kbd></p>
@@ -147,7 +145,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MTU1MzMsLTE5MTg1NjQxMjUsLTE1Mj
+eyJoaXN0b3J5IjpbODQzNzg3NzksLTE5MTg1NjQxMjUsLTE1Mj
 IxNTU2MDUsLTE4NjgyOTg3MDAsMjExNzM1Mzc4NSwtMTcxMzky
 MTk3MiwxNTI0ODM3OTc4LC0xNTk0NDg4MDUzLDE5ODIyNTExOF
 19
