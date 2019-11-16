@@ -98,7 +98,7 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png?w=860)
 
 <p class="aligncenter">
-    <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" alt="centered image">
+ <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" alt="centered image">
 </p>
 
  
@@ -145,8 +145,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTYxMDk4NywtMTE3Njg5OTUwOSw5NT
-kxMjIwODUsLTE5MTg1NjQxMjUsLTE1MjIxNTU2MDUsLTE4Njgy
-OTg3MDAsMjExNzM1Mzc4NSwtMTcxMzkyMTk3MiwxNTI0ODM3OT
-c4LC0xNTk0NDg4MDUzLDE5ODIyNTExOF19
+eyJoaXN0b3J5IjpbMjEwMzEyODYxLC0xMTc2ODk5NTA5LDk1OT
+EyMjA4NSwtMTkxODU2NDEyNSwtMTUyMjE1NTYwNSwtMTg2ODI5
+ODcwMCwyMTE3MzUzNzg1LC0xNzEzOTIxOTcyLDE1MjQ4Mzc5Nz
+gsLTE1OTQ0ODgwNTMsMTk4MjI1MTE4XX0=
 -->
