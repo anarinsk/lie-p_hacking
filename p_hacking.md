@@ -87,7 +87,7 @@ NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차�
 
 NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 경우 영가설을 기각하는 방식으형태로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나?그러면 아래는 어떻게 고려될까? 만일 효과가 없는 데도 효과가 있다고 예측할를 찾아낼 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않아도 괜찮은 것일까? 
 
-검정력은 $(1-\beta)$로 정의된을 때 어떤 일이 생길까? $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측결정할 확률이다. 즉, nNegative로 판정한 것 중 true nNegative의 비율을 의미한다. 사실 NHST는 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 하지만 이 전제를 지키지 않으면 혹은 의도적으로 침묵한다면 어떤 일이 생길이에 대해서 암묵적으로 높은 검정력을 밑에 깔고 있다. 이런데 이게 타당한 걸까?  
+검정력은 $(1-\beta)$로 정의된을 때 어떤 일이 생길까? $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측결정할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 하지만 이 전제를 지키지 않으면 혹은 의도적으로 침묵한다면 어떤 일이 생길이에 대해서 암묵적으로 높은 검정력을 밑에 깔고 있다. 이런데 이게 타당한 걸까?  
 
 # Ioannidis, the destroyer 
 
@@ -109,7 +109,7 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png?w=860)
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false nNegative를 허용하는 비율이 20%다. 즉 true positive가 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative를 허용하는 비율이 20%다. 즉 true positive가 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png?w=860)
 
@@ -147,7 +147,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg1NjQxMjUsLTE1MjIxNTU2MDUsLT
-E4NjgyOTg3MDAsMjExNzM1Mzc4NSwtMTcxMzkyMTk3MiwxNTI0
-ODM3OTc4LC0xNTk0NDg4MDUzLDE5ODIyNTExOF19
+eyJoaXN0b3J5IjpbMTY1ODAwMjUwMywtMTkxODU2NDEyNSwtMT
+UyMjE1NTYwNSwtMTg2ODI5ODcwMCwyMTE3MzUzNzg1LC0xNzEz
+OTIxOTcyLDE1MjQ4Mzc5NzgsLTE1OTQ0ODgwNTMsMTk4MjI1MT
+E4XX0=
 -->
