@@ -97,10 +97,9 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 
 ![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png?w=860)
 
-<p class="aligncenter">
- <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" alt="centered image">
-</p>
-
+<div class='container'>
+<img src='https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png'>
+</div>
  
 
 자 이제 업계의 관행대로 1종 오류를 5%로 두자.(즉 $\alpha = 0.05$)로 두자. 이는 false positive의 비율, 즉 효과가 없는데도 효과가 있다는 예측을결과를 얻을 확률을 5%까지 허용한다는 이야기다. 1,000 번의 실험에서이라면 효과가 없는 900번개 중에서 약 45번(= 900 X 0.05)개 정도는 효과가 있는 것으로 보고된될 수 있다. 
@@ -145,7 +144,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzEyODYxLC0xMTc2ODk5NTA5LDk1OT
+eyJoaXN0b3J5IjpbLTE3OTQ2NTM5LC0xMTc2ODk5NTA5LDk1OT
 EyMjA4NSwtMTkxODU2NDEyNSwtMTUyMjE1NTYwNSwtMTg2ODI5
 ODcwMCwyMTE3MzUzNzg1LC0xNzEzOTIxOTcyLDE1MjQ4Mzc5Nz
 gsLTE1OTQ0ODgwNTMsMTk4MjI1MTE4XX0=
