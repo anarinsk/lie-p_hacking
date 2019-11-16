@@ -59,7 +59,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
  영가설을 기각하고 효과가 있다고 생각한다. 앞으로 영가설은 $H_0$로도 적겠다. 
 
-보시는 것처럼 보통  혼동 행렬에서 존재함(효과 있음)을 "POSITIVEositive"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 실제로 저자에 따라서는 둘을 바꿔쓰기도 한그래서 앞에서 Positive를 그냥 "이름표"로 봐 달라고 미리 밝혔다. 혼란의 여지가 다소 있지만 중요한 것은 이름이 아니라 취지이므로 일단 우리는 업계의 관행을 존중하도록 하자. 
+보시는 것처럼 보통  혼동 행렬에서 존재함(효과 있음)을 "POSITIVEositive"로 본다면 1종 오류와 2종 오류가 바뀌어야 맞을 것이다. 실제로 저자에 따라서는 둘을 바꿔쓰기도 한그래서 앞에서 positive를 그냥 "이름표"로 봐 달라고 미리 밝혔다. 혼란의 여지가 다소 있지만 중요한 것은 이름이 아니라 취지이므로 일단 우리는 업계의 관행을 존중하도록 하자. 
 
 <p align="center"><kbd>
   <img src="https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png" width="600">
@@ -115,9 +115,9 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 
 ## 이오니디스의 한방 
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false pPositive와 80개의 true pPositive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율결과가 나오지 않은 실험에서 Positive를 보고할 확률( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 자.
+1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율결과가 나오지 않은 실험에서 Positive를 보고할 확률( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 자.
 
-$\text{FPRP} = \dfrac{\text{false pPositive}}{\text{false pPositive + true pPositive}}$
+$\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
 
 $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
@@ -126,7 +126,7 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
 2. 대부분의 가설이 FALSE이고 1% 정도만면 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$의 조건에서로 가정할 경우 FPRP는 무려 0.93이 된다. 즉, 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
 
-앞서 과학자들도 신기함박한 것을 추구한다고 말했다. 놀라운신박한 것이란 좀처럼사실 잘 검증되기 힘들다는 의미이기도 하든 것을 의미한다. 해당 가설을 검정을 할 경우 대부분 negative로 보고 되기 쉽다는FALSE로 보고될 것들이다. 이런 분야에서 어찌해서 positive를 발견했다면 "유레카!"를 외치기 앞서 연구가 잘못된 것(TRUE를 찾아냈다면 그 연구가 false pPositive)일 확률부터 걱정해야 한다. 우쭐하고 감탄하기에 앞서 의심이 먼저다! 은 상상 이상으로 높다.
+앞서 과학자들도 신기함박한 것을 추구한다고 말했다. 놀라운신박한 것이란 좀처럼사실 잘 검증되기 힘들다는 의미이기도 하든 것을 의미한다. 해당 가설을 검정을 할 경우 대부분 negative로 보고 되기 쉽다는FALSE로 보고될 것들이다. 이런 분야에서 어찌해서 positive를 발견했다면 "유레카!"를 외치기 앞서 연구가 잘못된 것(TRUE를 찾아냈다면 그 연구가 false positive)일 확률부터 걱정해야 한다. 우쭐하고 감탄하기에 앞서 의심이 먼저다! 은 상상 이상으로 높다.
 
 # 정리 
 
@@ -147,8 +147,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODAwMjUwMywtMTkxODU2NDEyNSwtMT
-UyMjE1NTYwNSwtMTg2ODI5ODcwMCwyMTE3MzUzNzg1LC0xNzEz
-OTIxOTcyLDE1MjQ4Mzc5NzgsLTE1OTQ0ODgwNTMsMTk4MjI1MT
-E4XX0=
+eyJoaXN0b3J5IjpbMjk3MTU1MzMsLTE5MTg1NjQxMjUsLTE1Mj
+IxNTU2MDUsLTE4NjgyOTg3MDAsMjExNzM1Mzc4NSwtMTcxMzky
+MTk3MiwxNTI0ODM3OTc4LC0xNTk0NDg4MDUzLDE5ODIyNTExOF
+19
 -->
