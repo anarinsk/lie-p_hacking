@@ -28,7 +28,7 @@ p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 �
 
 $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
-| POSITIVE | NEGATIV|  | TRUE | FALSE |
+|  | POSITIVE | NEGATIV|  | TRUE | FALSE |
 |--|--|--|
 | **pPositive** | true pPositive | false pPositive  |
 | **nNegative** | false nNegative |  true nNegative |
@@ -143,16 +143,10 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 ----
 
-:feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), w----
+:feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
-<b id="f1">1</b> 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영가설이 더 타당할 듯 싶다. 이 글에서는 영가설로 쓰도록 하자.[↩](#a1)
-
-
-
-> Written with [StackEdit](https://stackedit.io/)
-.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTg2MTE2NywyMTE3MzUzNzg1LC0xNz
-EzOTIxOTcyLDE1MjQ4Mzc5NzgsLTE1OTQ0ODgwNTMsMTk4MjI1
-MTE4XX0=
+eyJoaXN0b3J5IjpbMzAwNDQ5ODU3LDIxMTczNTM3ODUsLTE3MT
+M5MjE5NzIsMTUyNDgzNzk3OCwtMTU5NDQ4ODA1MywxOTgyMjUx
+MThdfQ==
 -->
