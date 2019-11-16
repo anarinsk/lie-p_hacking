@@ -89,7 +89,7 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 
 이제 하버드 의대에 재직하는 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p-해킹을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성p-hacking에 대해서 누구나 알고 있었지만 제대로 정식화를 하지 않았못했다. 대부분이누구나 알고 있고 찜찜하게 여기생각하고 있지만, 문제로 삼기에는 (기둥 뿌리 무너질까) 망설여 지는 그런 것이 p-해킹이 아니었을까 싶 이를 빼버리면 기둥 뿌리가 없어질 것만 같은, 뭔가 그런 존재였일지 모르겠다. 이것이 '우상'이다. 명확한 근거를 제시할 수 없지만 숭배의 유혹을 뿌리치지 쉽지 않은 것 말이다. 
 
-2005년 이오니디스 선생이 우상 파괴를 위한 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124) 하나를을 투하했다.으니, 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 논문에 관한 갑론을박이 여전히 진행 중이다. 좌우간 p-해킹 만큼은 이 논문이 제대로 핵심을 보여주었나올 때부터 현재까지 갑론을박을 거듭하고 있는 논문이지만 p-hacking과 관련해서는 이 논문이 정곡을 찔렀다. 여기서는 [다른 사람분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
+2005년 이오니디스 선생이 우상 파괴를 위한 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124) 하나를을 투하했다.으니, 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 논문에 관한 갑론을박이 여전히 진행 중이다. 좌우간 p-해킹 만큼은 이 논문이 제대로 핵심을 보여주었나올 때부터 현재까지 갑론을박을 거듭하고 있는 논문이지만 p-hacking과 관련해서는 이 논문이 정곡을 찔렀다. 여기서는 [다른 분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
 
 인간은 '가시성'의 동물이다. 사람들은 보통 평범한 것보다는 튀는 걸 먼저 보게 된뭐든 특이하고 드러나는 걸 좋아한다. "뭘 당연한 걸 연구 씩이나 하나!" 연구자들이 종종 듣게 되는 이야기다. 과학 하는 사람들도 인간이다. 그들 역시 가급적 세상을 놀라게 할특이한, 신기박한 결과를 찾아 헤맨다. 
 
@@ -145,8 +145,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY4OTk1MDksOTU5MTIyMDg1LC0xOT
-E4NTY0MTI1LC0xNTIyMTU1NjA1LC0xODY4Mjk4NzAwLDIxMTcz
-NTM3ODUsLTE3MTM5MjE5NzIsMTUyNDgzNzk3OCwtMTU5NDQ4OD
-A1MywxOTgyMjUxMThdfQ==
+eyJoaXN0b3J5IjpbMjA2NTYxMDk4NywtMTE3Njg5OTUwOSw5NT
+kxMjIwODUsLTE5MTg1NjQxMjUsLTE1MjIxNTU2MDUsLTE4Njgy
+OTg3MDAsMjExNzM1Mzc4NSwtMTcxMzkyMTk3MiwxNTI0ODM3OT
+c4LC0xNTk0NDg4MDUzLDE5ODIyNTExOF19
 -->
