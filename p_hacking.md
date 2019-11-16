@@ -1,4 +1,4 @@
-**p&#8722;-해킹**
+**p&#8722;해킹**
 
 2018-10-02
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
@@ -22,7 +22,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서)필터를 걸어 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜어째서 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광을 빌리게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하hacking이다. 
 
-# 예측 vs과 사실 조건 
+# 사실 조건과 예측 
 
 p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류는흔히 혼동행렬(confusion matrix)이라고 부르기도 한다. 
 
@@ -143,7 +143,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNjc3MzkzLC0xODY4Mjk4NzAwLDIxMT
-czNTM3ODUsLTE3MTM5MjE5NzIsMTUyNDgzNzk3OCwtMTU5NDQ4
-ODA1MywxOTgyMjUxMThdfQ==
+eyJoaXN0b3J5IjpbLTE1MjIxNTU2MDUsLTE4NjgyOTg3MDAsMj
+ExNzM1Mzc4NSwtMTcxMzkyMTk3MiwxNTI0ODM3OTc4LC0xNTk0
+NDg4MDUzLDE5ODIyNTExOF19
 -->
