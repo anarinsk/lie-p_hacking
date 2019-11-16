@@ -95,8 +95,6 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 
 이렇게 가정해보자. 어떤 과학 실험을 1,000 번 할 때(보다 정확하게 표현하면 가설검정을 1,000 번 수행할 때), 그중에서 약 10%에서 신박한 결과가 나타난다고 하자. 그림으로 표시하면 아래와 같다.
 
-![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png?w=860)
-
 <div class='container'>
 <img src='https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png'>
 </div>
@@ -143,9 +141,9 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTIwMTg2NTUsLTE3OTQ2NTM5LC0xMT
-c2ODk5NTA5LDk1OTEyMjA4NSwtMTkxODU2NDEyNSwtMTUyMjE1
-NTYwNSwtMTg2ODI5ODcwMCwyMTE3MzUzNzg1LC0xNzEzOTIxOT
-cyLDE1MjQ4Mzc5NzgsLTE1OTQ0ODgwNTMsMTk4MjI1MTE4XX0=
-
+eyJoaXN0b3J5IjpbLTE0NTIzMzUxOSwtMTU1MjAxODY1NSwtMT
+c5NDY1MzksLTExNzY4OTk1MDksOTU5MTIyMDg1LC0xOTE4NTY0
+MTI1LC0xNTIyMTU1NjA1LC0xODY4Mjk4NzAwLDIxMTczNTM3OD
+UsLTE3MTM5MjE5NzIsMTUyNDgzNzk3OCwtMTU5NDQ4ODA1Mywx
+OTgyMjUxMThdfQ==
 -->
