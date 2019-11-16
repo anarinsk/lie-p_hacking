@@ -28,7 +28,7 @@ p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 �
 
 $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
-|  | POSITIVE | NEGATIV|  | TRUE | FALSE |
+|                             | TRUE | FALSE |
 |--|--|--|
 | **pPositive** | true pPositive | false pPositive  |
 | **nNegative** | false nNegative |  true nNegative |
@@ -145,7 +145,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDA4NjAxOCwtMTg2ODI5ODcwMCwyMT
+eyJoaXN0b3J5IjpbLTYzNTEwNTA0NSwtMTg2ODI5ODcwMCwyMT
 E3MzUzNzg1LC0xNzEzOTIxOTcyLDE1MjQ4Mzc5NzgsLTE1OTQ0
 ODgwNTMsMTk4MjI1MTE4XX0=
 -->
