@@ -1,4 +1,4 @@
-**p&#8722;해킹**
+**p&#8722;-해킹**
 
 2018-10-02
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
@@ -152,6 +152,6 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 > Written with [StackEdit](https://stackedit.io/)
 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM5MjE5NzIsMTUyNDgzNzk3OCwtMT
-U5NDQ4ODA1MywxOTgyMjUxMThdfQ==
+eyJoaXN0b3J5IjpbMjExNzM1Mzc4NSwtMTcxMzkyMTk3MiwxNT
+I0ODM3OTc4LC0xNTk0NDg4MDUzLDE5ODIyNTExOF19
 -->
