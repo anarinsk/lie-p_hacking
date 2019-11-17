@@ -142,12 +142,12 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 
 ----
 
-:feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
+ :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg1NzI4NzEsLTE0NTIzMzUxOSwtMT
-U1MjAxODY1NSwtMTc5NDY1MzksLTExNzY4OTk1MDksOTU5MTIy
-MDg1LC0xOTE4NTY0MTI1LC0xNTIyMTU1NjA1LC0xODY4Mjk4Nz
-AwLDIxMTczNTM3ODUsLTE3MTM5MjE5NzIsMTUyNDgzNzk3OCwt
-MTU5NDQ4ODA1MywxOTgyMjUxMThdfQ==
+eyJoaXN0b3J5IjpbMjA4NDg5MTIzLC0xNDUyMzM1MTksLTE1NT
+IwMTg2NTUsLTE3OTQ2NTM5LC0xMTc2ODk5NTA5LDk1OTEyMjA4
+NSwtMTkxODU2NDEyNSwtMTUyMjE1NTYwNSwtMTg2ODI5ODcwMC
+wyMTE3MzUzNzg1LC0xNzEzOTIxOTcyLDE1MjQ4Mzc5NzgsLTE1
+OTQ0ODgwNTMsMTk4MjI1MTE4XX0=
 -->
