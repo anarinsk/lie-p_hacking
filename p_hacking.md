@@ -107,7 +107,9 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 
 보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative를 허용하는 비율이 20%다. 즉 true positive가 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
-![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png?w=860)
+<p align="center"><kbd>
+  <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
+</kbd></p>
 
 ## 이오니디스의 한방 
 
@@ -143,7 +145,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTMwMDg3OTIsLTE0NTIzMzUxOSwtMT
+eyJoaXN0b3J5IjpbLTEzMjg1NzI4NzEsLTE0NTIzMzUxOSwtMT
 U1MjAxODY1NSwtMTc5NDY1MzksLTExNzY4OTk1MDksOTU5MTIy
 MDg1LC0xOTE4NTY0MTI1LC0xNTIyMTU1NjA1LC0xODY4Mjk4Nz
 AwLDIxMTczNTM3ODUsLTE3MTM5MjE5NzIsMTUyNDgzNzk3OCwt
