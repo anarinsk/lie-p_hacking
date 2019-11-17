@@ -42,7 +42,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 통계학을 공부한 사람은 사실 이 매트릭스를 한번은 봤을 것이다. 통계학에서 제일 안 외워지는 것 중 하나가 1종 오류(type I error), 2종 오류(type II error)다. 
 
-||true | false |
+||TRUE | FALSE |
 |--|--|--|
 | **positive** | 1-$\alpha$ | $\alpha$ |
 | **negative** | $\beta$ |  1-$\beta$ |
@@ -145,5 +145,6 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMzU1Nzg3LC0xNjM5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbLTEwNTYyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ
+==
 -->
