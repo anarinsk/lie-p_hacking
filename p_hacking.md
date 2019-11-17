@@ -136,12 +136,14 @@ $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 
 
-![enter image description here](https://www.explainxkcd.com/wiki/images/3/3f/significant.png)
+<p align="center"><kbd>
+  <img src="https://www.explainxkcd.com/wiki/images/3/3f/significant.png" width="500">
+</kbd></p>
 
 ----
 
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMjMxMjAyLC0xNjM5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbLTk3OTAxNzY2NiwtMTYzOTQ1ODYwOF19
 -->
