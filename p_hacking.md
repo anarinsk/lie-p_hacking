@@ -26,17 +26,17 @@ p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 �
 
 $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
-| | true | false |
+| | TRUE | FALSE |
 |--|--|--|
 | **positive** | true positive | false positive  |
 | **negative** | false negative |  true negative |
 
-표에서 TRUE, FALSE는 일종의 '사실 조건'을 나타낸다. 사실 조건이란 어떤 대상이 실제로 존재하는지 여부를 나타낸다. TRUE면 존재하고 FALSE면 존재하지 않는 것으로 지칭하겠다. positive, negative는 판단 조건이다.  어떤 대상의 존재 유무에 대한 예측을 positive와 negative로 표기하며, positive는 TRUE의 상태임을 예측하는 것이다. 
+표에서 TRUE, FALSE는 일종의 '사실 조건'을 나타낸다. 사실 조건이란 현상이 실제로 존재하는지 여부를 나타낸다. TRUE면 존재하고 FALSE면 존재하지 않는 것으로 지칭하겠다. positive, negative는 판단 조건이다.  어떤 대상의 존재 유무에 대한 예측을 positive와 negative로 표기하며, positive는 TRUE의 상태임을 예측하는 것이다. 일부러 대문자로 쓴 대목에 유의하시라. 즉, 이 녀석은 형용사가 아니라 현상의 존재 조건에 관한 라벨 같은 것이다. 
 
   -  positive, negative 예측이 맞는 경우: true positive, true negative 
   -  positive, negative 예측이 틀리는 경우: false positive (오탐), false negative (미탐) 
 
-예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 [성과 지표](https://en.wikipedia.org/wiki/Precision_and_recall)를 도출할 수 있다. 하지만 당장를 도출하지만, 지금의 관심사는 아니니 일단 넘어가자. 
+예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 [성과 지표](https://en.wikipedia.org/wiki/Precision_and_recall)를 도출할 수 있다. 하지만 당장를 도출하지만, 지금의 관심사는 아니니 일단 넘어가자. 그리고 여기서 true, false는
 
 # 1종 오류와 2종 오류 
 
@@ -145,5 +145,5 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTAxNzY2NiwtMTYzOTQ1ODYwOF19
+eyJoaXN0b3J5IjpbNTA5NTIzNjEzLC0xNjM5NDU4NjA4XX0=
 -->
