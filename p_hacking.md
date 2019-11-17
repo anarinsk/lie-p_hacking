@@ -5,6 +5,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.html)
 
 # 들어가며 
+
 요즘 p-hacking이라는 말을 심심치 않게 들을 수 있다. 혹자는 "재현성"의 위기라고도 한다. 여기서 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은충분히 비슷한 결과가 나와야 한다는 것이다.  
 
 자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시하는 실험으로 구현할될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때에서는 기본적으로 같은 결과가 나와야 한다.
@@ -142,5 +143,5 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk0NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbOTgwMjMxMjAyLC0xNjM5NDU4NjA4XX0=
 -->
