@@ -1,149 +1,162 @@
-**p&#8722;해킹**
+<!DOCTYPE html>
+<html>
 
-2018-10-02
-Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
-Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.html)
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121062878-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'UA-121062878-1');
+  </script>
+  
+  <script data-ad-client="ca-pub-5998015764378916" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p_hacking</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+ 
+</head>
 
-# 들어가며 
+<body class="stackedit">
+  <div class="stackedit__html"><p><strong>p−해킹</strong></p>
+<p>2018-10-02<br>
+Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a><br>
+Also posted at <a href="https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.html">here</a></p>
+<h1 id="들어가며">들어가며</h1>
+<h1 id="들어가며-1">들어가며</h1>
+<p>요즘 p-hacking이라는 말을 심심치 않게 들을 수 있다. 혹자는 "재현성"의 위기라고도 한다. 여기서 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은충분히 비슷한 결과가 나와야 한다는 것이다.</p>
+<p>자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시하는 실험으로 구현할될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때에서는 기본적으로 같은 결과가 나와야 한다.</p>
+<p>이런 맥락에서는 이해가 간다. 그러면 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때에도하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은수상한 로널드 코즈가 했다는 이야기 중에서 유명한 말이 하나 있다.</p>
+<blockquote>
+<p>If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다.</p>
+</blockquote>
+<p>데이터를 고문하다니? 백문이 불여일견!이다. 네이트 실버의 538에서 p-해킹hacking이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다.</p>
+<p><a href="https://projects.fivethirtyeight.com/p-hacking/">Hack Your Way To Scientific Glory</a></p>
+<p>같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서)필터를 걸어 당신이 원하는 ‘과학적’ 결론을 찾을 수 있다! 왜어째서 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준’에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광을 빌리게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하hacking이다.</p>
+<h1 id="사실-조건과-예측">사실 조건과 예측</h1>
+<p>p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류는흔히 혼동행렬(confusion matrix)이라고 부르기도 한다.</p>
+<p><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">x</span></span></span></span></span> 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">x</span></span></span></span></span>의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다.</p>
 
-# 들어가며 
-요즘 p-hacking이라는 말을 심심치 않게 들을 수 있다. 혹자는 "재현성"의 위기라고도 한다. 여기서 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은충분히 비슷한 결과가 나와야 한다는 것이다.  
+<table>
+<thead>
+<tr>
+<th></th>
+<th>true</th>
+<th>false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>positive</strong></td>
+<td>true positive</td>
+<td>false positive</td>
+</tr>
+<tr>
+<td><strong>negative</strong></td>
+<td>false negative</td>
+<td>true negative</td>
+</tr>
+</tbody>
+</table><p>표에서 TRUE, FALSE는 일종의 '사실 조건’을 나타낸다. 사실 조건이란 어떤 대상이 실제로 존재하는지 여부를 나타낸다. TRUE면 존재하고 FALSE면 존재하지 않는 것으로 지칭하겠다. positive, negative는 판단 조건이다.  어떤 대상의 존재 유무에 대한 예측을 positive와 negative로 표기하며, positive는 TRUE의 상태임을 예측하는 것이다.</p>
+<ul>
+<li>positive, negative 예측이 맞는 경우: true positive, true negative</li>
+<li>positive, negative 예측이 틀리는 경우: false positive (오탐), false negative (미탐)</li>
+</ul>
+<p>예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 <a href="https://en.wikipedia.org/wiki/Precision_and_recall">성과 지표</a>를 도출할 수 있다. 하지만 당장를 도출하지만, 지금의 관심사는 아니니 일단 넘어가자.</p>
+<h1 id="종-오류와-2종-오류">1종 오류와 2종 오류</h1>
+<p>통계학을 공부한 사람은 사실 이 매트릭스를 한번은 봤을 것이다. 통계학에서 제일 안 외워지는 것 중 하나가 1종 오류(type I error), 2종 오류(type II error)다.</p>
 
-자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시하는 실험으로 구현할될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때에서는 기본적으로 같은 결과가 나와야 한다.
-
- 이런 맥락에서는 이해가 간다. 그러면 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때에도하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은수상한 로널드 코즈가 했다는 이야기 중에서 유명한 말이 하나 있다. 
-
-> If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
-
-데이터를 고문하다니? 백문이 불여일견!이다. 네이트 실버의 538에서 p-해킹hacking이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
-
-[Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
-
-같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서)필터를 걸어 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜어째서 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광을 빌리게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하hacking이다. 
-
-# 사실 조건과 예측 
-
-p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류는흔히 혼동행렬(confusion matrix)이라고 부르기도 한다. 
-
-$x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
-
-| | true | false |
-|--|--|--|
-| **positive** | true positive | false positive  |
-| **negative** | false negative |  true negative |
-
-표에서 TRUE, FALSE는 일종의 '사실 조건'을 나타낸다. 사실 조건이란 어떤 대상이 실제로 존재하는지 여부를 나타낸다. TRUE면 존재하고 FALSE면 존재하지 않는 것으로 지칭하겠다. positive, negative는 판단 조건이다.  어떤 대상의 존재 유무에 대한 예측을 positive와 negative로 표기하며, positive는 TRUE의 상태임을 예측하는 것이다. 
-
-  -  positive, negative 예측이 맞는 경우: true positive, true negative 
-  -  positive, negative 예측이 틀리는 경우: false positive (오탐), false negative (미탐) 
-
-예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 [성과 지표](https://en.wikipedia.org/wiki/Precision_and_recall)를 도출할 수 있다. 하지만 당장를 도출하지만, 지금의 관심사는 아니니 일단 넘어가자. 
-
-# 1종 오류와 2종 오류 
-
-통계학을 공부한 사람은 사실 이 매트릭스를 한번은 봤을 것이다. 통계학에서 제일 안 외워지는 것 중 하나가 1종 오류(type I error), 2종 오류(type II error)다. 
-
-||true | false |
-|--|--|--|
-| **positive** | 1-$\alpha$ | $\alpha$ |
-| **negative** | $\beta$ |  1-$\beta$ |
-
-($\alpha, \beta \in [0,1]$)
-
-앞서의 표를 살짝 다르게 표현해보자. positive, negative는 true/false에 대한 판정을 뜻한다. positive라면 true라고 판정하는 것이고, negative라면 false라고 판정하는 경우다. 표에서 예측이 맞는 경우의 비율은 $(1-\alpha)$, $(1-\beta)$이고 그렇지 않은 비율은 $\alpha$, $\beta$다. 여기서할 것이다. 이를 비율로 다시 표현하자. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 $\beta$를 2종 오류라고 부른다. 
-
-영가설[^1]을 통해 결과가 유의한 정앞서 사실 조건을 TRUE라고 굳이 대문자로 쓴 이유를 이제 살짝 밝히겠다. 사실 통계적인 검정은 영가설<sup id="a1">[1](#f1)</sup>을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절차치를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 한보통 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 NHST형태다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때($p < 0.05$) 영가설을 기각하게 된다. 앞으로 영가설은 $H_0$로도 적도록 하자. 
-
-[^1]: 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영가설이 더 타당할 듯 싶다. 이 글에서는 영가설로 쓰도록 하자.[↩](#a1)
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>true</th>
+<th>false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>positive</strong></td>
+<td>1-<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span></span></span></span></span></td>
+<td><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span></span></span></span></span></td>
+</tr>
+<tr>
+<td><strong>negative</strong></td>
+<td><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span></td>
+<td>1-<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span></td>
+</tr>
+</tbody>
+</table><p>(<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi><mo separator="true">,</mo><mi>β</mi><mo>∈</mo><mo stretchy="false">[</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">\alpha, \beta \in [0,1]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">[</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">1</span><span class="mclose">]</span></span></span></span></span>)</p>
+<p>앞서의 표를 살짝 다르게 표현해보자. positive, negative는 true/false에 대한 판정을 뜻한다. positive라면 true라고 판정하는 것이고, negative라면 false라고 판정하는 경우다. 표에서 예측이 맞는 경우의 비율은 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>α</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(1-\alpha)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span><span class="mclose">)</span></span></span></span></span>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>β</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(1-\beta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span><span class="mclose">)</span></span></span></span></span>이고 그렇지 않은 비율은 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span></span></span></span></span>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span>다. 여기서할 것이다. 이를 비율로 다시 표현하자. 이때,  false positive 의 비율을 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span></span></span></span></span>라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span>를 2종 오류라고 부른다.</p>
+<p>영가설<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup>을 통해 결과가 유의한 정앞서 사실 조건을 TRUE라고 굳이 대문자로 쓴 이유를 이제 살짝 밝히겠다. 사실 통계적인 검정은 영가설<sup id="a1"><a href="#f1">1</a></sup>을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절차치를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 한보통 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>β</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\beta_1 = 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.05278em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">0</span></span></span></span></span> 임을 검증하는 것이 NHST형태다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때(<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>&lt;</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">p &lt; 0.05</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.73354em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span></span></span>) 영가설을 기각하게 된다. 앞으로 영가설은 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">H_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.08125em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>로도 적도록 하자.</p>
 <p align="center"><kbd>
   <img src="https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png" width="600">
 </kbd></p>
-
-# NHST 무엇이 문제인가? (기초편)
-
-NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차례는번은 해야 할 것이 같다. 일단 흔하게 저지르기 쉬운 기초적인 오류 하나 짚고, p-해킹hacking으로 넘어가도록 하자. 
-
-통계 패키지를 돌릴렸을 때 $p < 0.05$와 같은 메시지가 뜨를 보면 안도한다. 이때 마음 속에서 이런 목소리가 들린다.감이 들거나 때로는 희열을 느낄지도 모르겠다. 이때 뇌리를 스치는 목소리가 이런 것이 아닐까? "주어진 데이터에서 $H_0$이 참일 확률  $p$..."  이 목소리에 솔깃했다면 다시 정신을 차려야 한다. 여기서 $p$ 값의 의미는 오히려 역(reverse)  명제에 가깝다. 
-
-1. 현재의 데이터가 주어졌을 때, $H_0$가 참일 확률 
-2. 만일 $H_0$ 참이라면, 현재의 데이터를 얻을 확률
-
-1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 원래 명제와 역 명제의 진리표 결과는 항상 일치할 수 없진리표에서 둘의 결과가 동일하지 않다. 그런데 우리는 종종 p$p$ 값을 은근슬쩍 1처럼 해석사용하고는 한다. 이해를 돕기 위해 법의 맥락에서 다른 사례예를 들어보겠다. 
-
-1. $x$ 라는 증거가 발견되었주어졌을 때, 피고가 범인일 확률 
-2. 피고가 범인일 때, $x$ 라는 증거를 발견할얻을 확률 
-
-이 두 주장이진술은 같은 것진술인가? 아니다! 심지어 2는 무죄추정의 원칙이라는 형법의 원리에 어긋난와 충돌한다. 그리고 증거에 근거를 두고 피고의 유무죄를 판단할 때 1이 2보다는 타당하고 정의로운 접근이 아닐까?처럼 보일 것이다. 그런데 사실 현실의 법정에서는 2를 1처럼 쓰는 경우가 많다.[^2]
-
-[^2]: 이는 베이즈 정리와 관련된 내용이고 이 자체로 흥미로운 주제다.인데, 일단은 여기까지만 하고 넘어가도록 하자. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 [여기](https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial)를 참고하라.)
-
-# NHST 무엇이 문제인가? (p-해킹hacking) 
-
-NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 경우 영가설을 기각하는 방식으형태로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나?그러면 아래는 어떻게 고려될까? 만일 효과가 없는 데도 효과가 있다고 예측할를 찾아낼 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않아도 괜찮은 것일까? 
-
-검정력은 $(1-\beta)$로 정의된을 때 어떤 일이 생길까? $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측결정할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 하지만 이 전제를 지키지 않으면 혹은 의도적으로 침묵한다면 어떤 일이 생길이에 대해서 암묵적으로 높은 검정력을 밑에 깔고 있다. 이런데 이게 타당한 걸까?  
-
-# Ioannidis, the destroyer 
-
-이제 하버드 의대에 재직하는 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p-해킹을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성p-hacking에 대해서 누구나 알고 있었지만 제대로 정식화를 하지 않았못했다. 대부분이누구나 알고 있고 찜찜하게 여기생각하고 있지만, 문제로 삼기에는 (기둥 뿌리 무너질까) 망설여 지는 그런 것이 p-해킹이 아니었을까 싶 이를 빼버리면 기둥 뿌리가 없어질 것만 같은, 뭔가 그런 존재였일지 모르겠다. 이것이 '우상'이다. 명확한 근거를 제시할 수 없지만 숭배의 유혹을 뿌리치지 쉽지 않은 것 말이다. 
-
-2005년 이오니디스 선생이 우상 파괴를 위한 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124) 하나를을 투하했다.으니, 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 논문에 관한 갑론을박이 여전히 진행 중이다. 좌우간 p-해킹 만큼은 이 논문이 제대로 핵심을 보여주었나올 때부터 현재까지 갑론을박을 거듭하고 있는 논문이지만 p-hacking과 관련해서는 이 논문이 정곡을 찔렀다. 여기서는 [다른 분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
-
-인간은 '가시성'의 동물이다. 사람들은 보통 평범한 것보다는 튀는 걸 먼저 보게 된뭐든 특이하고 드러나는 걸 좋아한다. "뭘 당연한 걸 연구 씩이나 하나!" 연구자들이 종종 듣게 되는 이야기다. 과학 하는 사람들도 인간이다. 그들 역시 가급적 세상을 놀라게 할특이한, 신기박한 결과를 찾아 헤맨다. 
-
-이렇게 가정해보자. 어떤 과학 실험을 1,000 번 할 때(보다 정확하게 표현하면 가설검정을 1,000 번 수행할 때), 그중에서 약 10%에서 신박한 결과가 나타난다고 하자. 그림으로 표시하면 아래와 같다.
-
+<h1 id="nhst-무엇이-문제인가-기초편">NHST 무엇이 문제인가? (기초편)</h1>
+<p>NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차례는번은 해야 할 것이 같다. 일단 흔하게 저지르기 쉬운 기초적인 오류 하나 짚고, p-해킹hacking으로 넘어가도록 하자.</p>
+<p>통계 패키지를 돌릴렸을 때 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>&lt;</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">p &lt; 0.05</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.73354em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span></span></span>와 같은 메시지가 뜨를 보면 안도한다. 이때 마음 속에서 이런 목소리가 들린다.감이 들거나 때로는 희열을 느낄지도 모르겠다. 이때 뇌리를 스치는 목소리가 이런 것이 아닐까? “주어진 데이터에서 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">H_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.08125em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>이 참일 확률  <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></span>…”  이 목소리에 솔깃했다면 다시 정신을 차려야 한다. 여기서 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></span> 값의 의미는 오히려 역(reverse)  명제에 가깝다.</p>
+<ol>
+<li>현재의 데이터가 주어졌을 때, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">H_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.08125em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>가 참일 확률</li>
+<li>만일 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">H_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.08125em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span> 참이라면, 현재의 데이터를 얻을 확률</li>
+</ol>
+<p>1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 원래 명제와 역 명제의 진리표 결과는 항상 일치할 수 없진리표에서 둘의 결과가 동일하지 않다. 그런데 우리는 종종 p<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></span> 값을 은근슬쩍 1처럼 해석사용하고는 한다. 이해를 돕기 위해 법의 맥락에서 다른 사례예를 들어보겠다.</p>
+<ol>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">x</span></span></span></span></span> 라는 증거가 발견되었주어졌을 때, 피고가 범인일 확률</li>
+<li>피고가 범인일 때, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">x</span></span></span></span></span> 라는 증거를 발견할얻을 확률</li>
+</ol>
+<p>이 두 주장이진술은 같은 것진술인가? 아니다! 심지어 2는 무죄추정의 원칙이라는 형법의 원리에 어긋난와 충돌한다. 그리고 증거에 근거를 두고 피고의 유무죄를 판단할 때 1이 2보다는 타당하고 정의로운 접근이 아닐까?처럼 보일 것이다. 그런데 사실 현실의 법정에서는 2를 1처럼 쓰는 경우가 많다.<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></p>
+<h1 id="nhst-무엇이-문제인가-p-해킹hacking">NHST 무엇이 문제인가? (p-해킹hacking)</h1>
+<p>NHST는 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span></span></span></span></span>의 임계치를 정해 놓고 구한 p-값이 이보다 작을 경우 영가설을 기각하는 방식으형태로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span></span></span></span></span>를 고려한다면, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span>는 어떻게 되나?그러면 아래는 어떻게 고려될까? 만일 효과가 없는 데도 효과가 있다고 예측할를 찾아낼 확률, 즉 2종 오류(<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span>)가 제대로 통제되지 않아도 괜찮은 것일까?</p>
+<p>검정력은 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>β</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(1-\beta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span><span class="mclose">)</span></span></span></span></span>로 정의된을 때 어떤 일이 생길까? <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow><annotation encoding="application/x-tex">1-\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.72777em; vertical-align: -0.08333em;"></span><span class="mord">1</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span>를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측결정할 확률이다. 즉, negative로 판정한 것 중 true negative의 비율을 의미한다. 사실 NHST는 암묵적으로 상당히 높은 수준의 검정력을 전제한다. 하지만 이 전제를 지키지 않으면 혹은 의도적으로 침묵한다면 어떤 일이 생길이에 대해서 암묵적으로 높은 검정력을 밑에 깔고 있다. 이런데 이게 타당한 걸까?</p>
+<h1 id="ioannidis-the-destroyer">Ioannidis, the destroyer</h1>
+<p>이제 하버드 의대에 재직하는 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p-해킹을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성p-hacking에 대해서 누구나 알고 있었지만 제대로 정식화를 하지 않았못했다. 대부분이누구나 알고 있고 찜찜하게 여기생각하고 있지만, 문제로 삼기에는 (기둥 뿌리 무너질까) 망설여 지는 그런 것이 p-해킹이 아니었을까 싶 이를 빼버리면 기둥 뿌리가 없어질 것만 같은, 뭔가 그런 존재였일지 모르겠다. 이것이 '우상’이다. 명확한 근거를 제시할 수 없지만 숭배의 유혹을 뿌리치지 쉽지 않은 것 말이다.</p>
+<p>2005년 이오니디스 선생이 우상 파괴를 위한 <a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124">폭탄</a> 하나를을 투하했다.으니, 일단 제목부터 도발적이다. “왜 대부분의 출판된 학술 연구의 발견이 가짜인가?” 헐! 논문이 나온 뒤 현재까지 논문에 관한 갑론을박이 여전히 진행 중이다. 좌우간 p-해킹 만큼은 이 논문이 제대로 핵심을 보여주었나올 때부터 현재까지 갑론을박을 거듭하고 있는 논문이지만 p-hacking과 관련해서는 이 논문이 정곡을 찔렀다. 여기서는 <a href="https://scientificallysound.org/2017/10/04/most-published-findings-are-false/">다른 분</a>이 보다 이해하기 좋게 도해한 내용을 소개한다.</p>
+<p>인간은 '가시성’의 동물이다. 사람들은 보통 평범한 것보다는 튀는 걸 먼저 보게 된뭐든 특이하고 드러나는 걸 좋아한다. “뭘 당연한 걸 연구 씩이나 하나!” 연구자들이 종종 듣게 되는 이야기다. 과학 하는 사람들도 인간이다. 그들 역시 가급적 세상을 놀라게 할특이한, 신기박한 결과를 찾아 헤맨다.</p>
+<p>이렇게 가정해보자. 어떤 과학 실험을 1,000 번 할 때(보다 정확하게 표현하면 가설검정을 1,000 번 수행할 때), 그중에서 약 10%에서 신박한 결과가 나타난다고 하자. 그림으로 표시하면 아래와 같다.</p>
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" width="450">
 </kbd></p>
-
-자 이제 업계의 관행대로 1종 오류를 5%로 두자.(즉 $\alpha = 0.05$)로 두자. 이는 false positive의 비율, 즉 효과가 없는데도 효과가 있다는 예측을결과를 얻을 확률을 5%까지 허용한다는 이야기다. 1,000 번의 실험에서이라면 효과가 없는 900번개 중에서 약 45번(= 900 X 0.05)개 정도는 효과가 있는 것으로 보고된될 수 있다. 
-
+<p>자 이제 업계의 관행대로 1종 오류를 5%로 두자.(즉 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi><mo>=</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">\alpha = 0.05</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span></span></span>)로 두자. 이는 false positive의 비율, 즉 효과가 없는데도 효과가 있다는 예측을결과를 얻을 확률을 5%까지 허용한다는 이야기다. 1,000 번의 실험에서이라면 효과가 없는 900번개 중에서 약 45번(= 900 X 0.05)개 정도는 효과가 있는 것으로 보고된될 수 있다.</p>
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
 </kbd></p>
-
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative를 허용하는 비율이 20%다. 즉 true positive가 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
-
+<p>보통의 연구에서 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span>, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative를 허용하는 비율이 20%다. 즉 true positive가 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자.</p>
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
 </kbd></p>
+<h2 id="이오니디스의-한방">이오니디스의 한방</h2>
+<p>1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율결과가 나오지 않은 실험에서 Positive를 보고할 확률( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 자.</p>
+<p><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>FPRP</mtext><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mtext>false&nbsp;positive</mtext><mtext>false&nbsp;positive&nbsp;+&nbsp;true&nbsp;positive</mtext></mfrac></mstyle></mrow><annotation encoding="application/x-tex">\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord text"><span class="mord">FPRP</span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.25188em; vertical-align: -0.88044em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.37144em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord text"><span class="mord">false&nbsp;positive&nbsp;+&nbsp;true&nbsp;positive</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord text"><span class="mord">false&nbsp;positive</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.88044em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>FPRP</mtext><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>45</mn><mrow><mn>45</mn><mo>+</mo><mn>80</mn></mrow></mfrac></mstyle><mo>=</mo><mn>0.36</mn></mrow><annotation encoding="application/x-tex">\text{FPRP} = \dfrac{45}{45 + 80} = 0.36</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord text"><span class="mord">FPRP</span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.09077em; vertical-align: -0.76933em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.32144em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">4</span><span class="mord">5</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord">8</span><span class="mord">0</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">4</span><span class="mord">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.76933em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">3</span><span class="mord">6</span></span></span></span></span></p>
+<p>생각보다 높다! 유의수준 0.05(5%)이 제법가 무척 안전해 보였을일지 모르나, 이렇게 살짝 안을 들춰보면 연구에 커다란 금이 보인다. 여기서 신뢰성은 다음과 같이의 신뢰성에 문제가 생기는 것이다. 이 문제는 더 악화될 수도 있다.</p>
+<ol>
+<li>보통 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow><annotation encoding="application/x-tex">1-\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.72777em; vertical-align: -0.08333em;"></span><span class="mord">1</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span></span></span></span></span>는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다.</li>
+<li>대부분의 가설이 FALSE이고 1% 정도만면 TRUE라면? 이 경우 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi><mo>=</mo><mn>0.6</mn></mrow><annotation encoding="application/x-tex">\beta = 0.6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathdefault" style="margin-right: 0.05278em;">β</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">6</span></span></span></span></span>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi><mo>=</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">\alpha = 0.05</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.0037em;">α</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span></span></span>의 조건에서로 가정할 경우 FPRP는 무려 0.93이 된다. 즉, 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다.</li>
+</ol>
+<p>앞서 과학자들도 신기함박한 것을 추구한다고 말했다. 놀라운신박한 것이란 좀처럼사실 잘 검증되기 힘들다는 의미이기도 하든 것을 의미한다. 해당 가설을 검정을 할 경우 대부분 negative로 보고 되기 쉽다는FALSE로 보고될 것들이다. 이런 분야에서 어찌해서 positive를 발견했다면 "유레카!"를 외치기 앞서 연구가 잘못된 것(TRUE를 찾아냈다면 그 연구가 false positive)일 확률부터 걱정해야 한다. 우쭐하고 감탄하기에 앞서 의심이 먼저다! 은 상상 이상으로 높다.</p>
+<h1 id="정리">정리</h1>
+<p>이오니디스 선생은 엄밀하게 진행된 것처럼 보이는정상적으로 별 의도 없이 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘다는 평범한 사실을 지적했다. 더구나 2종 오류를 통제명확하게 고려하지 않을 경우 신박함을 좇는 과학자의 자연스러운 욕망과 결합해 아주 나쁜재앙에 가까운 결과를 낳을 수 있음을 보였다.</p>
+<p>과학자는 '객관적 진실’을 추구하지만 연구 과정 그리고 연구를 보고하는 결과물까지의 결과물은 결코 객관적일 수 없있다. 여기에는 과학자의 욕망이 개입하고 이에 따라서 보다 눈에 띄는더욱 신박한 연구를 추구하려는 유인이 자연스럽게 생겨난발생하기 마련이다.</p>
+<p>이오니디스 선생은 충고는 상식적이다. 보통 보기 힘든 신박한 것을 발견했다면, 먼저한번 삐딱하게 보라는 것이다. 과학을 회의하라는 것이 아니다. 단지의 권위를 거부할 필요는 없겠지만, 과학자의 '유인incentive’을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락 그 너머를 보라는 것이다. p-해킹이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 ‘순수한’ 열정 그 자체의 산물일 수도 있겠다. 오히려무해하지만 그의 열정이 의도하지 않은 p-해킹을 낳을hacking으로 이끌 수도 있다.</p>
+<p>자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터… 그렇다면, p-해킹을hacking를 최대한 걸러낼막을 수 있는 방책은 무엇일까? 이는 다음 기회로 넘기에 소개하도록 하자.  Stay tuned!</p>
+<p>p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다.</p>
+<p><img src="https://www.explainxkcd.com/wiki/images/3/3f/significant.png" alt="enter image description here"></p>
+<hr>
+<p>🏠<a href="http://lostineconomics.com">lostineconomics.com</a> | Jun Sok Huhh</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영가설이 더 타당할 듯 싶다. 이 글에서는 영가설로 쓰도록 하자.<a href="#a1">↩</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>이는 베이즈 정리와 관련된 내용이고 이 자체로 흥미로운 주제다.인데, 일단은 여기까지만 하고 넘어가도록 하자. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 <a href="https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial">여기</a>를 참고하라.) <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+</div>
+</body>
 
-## 이오니디스의 한방 
-
-1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율결과가 나오지 않은 실험에서 Positive를 보고할 확률( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 자.
-
-$\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
-
-$\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
-
-생각보다 높다! 유의수준 0.05(5%)이 제법가 무척 안전해 보였을일지 모르나, 이렇게 살짝 안을 들춰보면 연구에 커다란 금이 보인다. 여기서 신뢰성은 다음과 같이의 신뢰성에 문제가 생기는 것이다. 이 문제는 더 악화될 수도 있다. 
-
-1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
-2. 대부분의 가설이 FALSE이고 1% 정도만면 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$의 조건에서로 가정할 경우 FPRP는 무려 0.93이 된다. 즉, 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
-
-앞서 과학자들도 신기함박한 것을 추구한다고 말했다. 놀라운신박한 것이란 좀처럼사실 잘 검증되기 힘들다는 의미이기도 하든 것을 의미한다. 해당 가설을 검정을 할 경우 대부분 negative로 보고 되기 쉽다는FALSE로 보고될 것들이다. 이런 분야에서 어찌해서 positive를 발견했다면 "유레카!"를 외치기 앞서 연구가 잘못된 것(TRUE를 찾아냈다면 그 연구가 false positive)일 확률부터 걱정해야 한다. 우쭐하고 감탄하기에 앞서 의심이 먼저다! 은 상상 이상으로 높다.
-
-# 정리 
-
-이오니디스 선생은 엄밀하게 진행된 것처럼 보이는정상적으로 별 의도 없이 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 잘다는 평범한 사실을 지적했다. 더구나 2종 오류를 통제명확하게 고려하지 않을 경우 신박함을 좇는 과학자의 자연스러운 욕망과 결합해 아주 나쁜재앙에 가까운 결과를 낳을 수 있음을 보였다. 
-
-과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구를 보고하는 결과물까지의 결과물은 결코 객관적일 수 없있다. 여기에는 과학자의 욕망이 개입하고 이에 따라서 보다 눈에 띄는더욱 신박한 연구를 추구하려는 유인이 자연스럽게 생겨난발생하기 마련이다. 
-
-이오니디스 선생은 충고는 상식적이다. 보통 보기 힘든 신박한 것을 발견했다면, 먼저한번 삐딱하게 보라는 것이다. 과학을 회의하라는 것이 아니다. 단지의 권위를 거부할 필요는 없겠지만, 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락 그 너머를 보라는 것이다. p-해킹이른바 p-hacking은 출세욕에 사로 잡힌 과학자의 의도적 왜곡으로 생겨날 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 오히려무해하지만 그의 열정이 의도하지 않은 p-해킹을 낳을hacking으로 이끌 수도 있다. 
-
-자연과학이나 공학이 이렇다면, 인문학이나 사회과학은 오죽하랴. 입수한 자료를 이리저리렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-해킹을hacking를 최대한 걸러낼막을 수 있는 방책은 무엇일까? 이는 다음 기회로 넘기에 소개하도록 하자.  Stay tuned! 
-
-p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 
-
-![enter image description here](https://www.explainxkcd.com/wiki/images/3/3f/significant.png)
-
-----
-
- :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDg5MTIzLDE0NTY4NzM0NDZdfQ==
--->
+</html>
