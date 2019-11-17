@@ -36,7 +36,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
   -  positive, negative 예측이 맞는 경우: true positive, true negative 
   -  positive, negative 예측이 틀리는 경우: false positive (오탐), false negative (미탐) 
 
-예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 [성과 지표](https://en.wikipedia.org/wiki/Precision_and_recall)를 도출할 수 있다. 하지만 당장를 도출하지만, 지금의 관심사는 아니니 일단 넘어가자. 그리고 여기서 true, false는
+예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 [성과 지표](https://en.wikipedia.org/wiki/Precision_and_recall)를 도출할 수 있다. 하지만 당장를 도출하지만, 지금의 관심사는 아니니 일단 넘어가자. 그리고 여기서 true, false는 형용사다. 
 
 # 1종 오류와 2종 오류 
 
@@ -49,7 +49,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 ($\alpha, \beta \in [0,1]$)
 
-앞서의 표를 살짝 다르게 표현해보자. positive, negative는 true/false에 대한 판정을 뜻한다. positive라면 true라고 판정하는 것이고, negative라면 false라고 판정하는 경우다. 표에서 예측이 맞는 경우의 비율은 $(1-\alpha)$, $(1-\beta)$이고 그렇지 않은 비율은 $\alpha$, $\beta$다. 여기서할 것이다. 이를 비율로 다시 표현하자. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 $\beta$를 2종 오류라고 부른다. 
+앞서의 표를 살짝 다르게 표현해보자. positive, negative는 TRUE/FALSE에 대한 판정을 뜻한다. positive라면 TRUE라고 판정하는 것이고, negative라면 FALSE라고 판정하는 경우다. 표에서 예측이 맞는 경우의 비율은 $(1-\alpha)$, $(1-\beta)$이고 그렇지 않은 비율은 $\alpha$, $\beta$다. 여기서할 것이다. 이를 비율로 다시 표현하자. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 $\beta$를 2종 오류라고 부른다. 
 
 영가설[^1]을 통해 결과가 유의한 정앞서 사실 조건을 TRUE라고 굳이 대문자로 쓴 이유를 이제 살짝 밝히겠다. 사실 통계적인 검정은 영가설<sup id="a1">[1](#f1)</sup>을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절차치를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 한보통 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 NHST형태다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때($p < 0.05$) 영가설을 기각하게 된다. 앞으로 영가설은 $H_0$로도 적도록 하자. 
 
@@ -77,7 +77,7 @@ NHST가 지닌 문제를 제대로 다루려면, 별도의 포스팅을 몇 차�
 
 [^2]: 이는 베이즈 정리와 관련된 내용이고 이 자체로 흥미로운 주제다.인데, 일단은 여기까지만 하고 넘어가도록 하자. 개탄할 노릇이지만 미국 법정은 베이즈 정리에 입각한 증거의 확률적 평가를 용인하지 않고 있다. (자세한 내용은 [여기](https://www.sciencenews.org/blog/context/courts%E2%80%99-use-statistics-should-be-put-trial)를 참고하라.)
 
-# NHST 무엇이 문제인가? (p-해킹hacking) 
+# NHST 무엇이 문제인가?  
 
 NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 경우 영가설을 기각하는 방식으형태로 진행된다. 잠깐만. 앞서 혼동행렬에서 우리는 네 개의 공간을 봤다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나?그러면 아래는 어떻게 고려될까? 만일 효과가 없는 데도 효과가 있다고 예측할를 찾아낼 확률, 즉 2종 오류($\beta$)가 제대로 통제되지 않아도 괜찮은 것일까? 
 
@@ -145,5 +145,5 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5NTIzNjEzLC0xNjM5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbNDQwMzU1Nzg3LC0xNjM5NDU4NjA4XX0=
 -->
