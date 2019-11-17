@@ -95,13 +95,15 @@ NHST는 $\alpha$의 임계치를 정해 놓고 구한 p-값이 이보다 작을 
 
 이렇게 가정해보자. 어떤 과학 실험을 1,000 번 할 때(보다 정확하게 표현하면 가설검정을 1,000 번 수행할 때), 그중에서 약 10%에서 신박한 결과가 나타난다고 하자. 그림으로 표시하면 아래와 같다.
 
-<div class='container'>
-<img src='https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png'width="300">
-</div>
+<p align="center"><kbd>
+  <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" width="450">
+</kbd></p>
 
 자 이제 업계의 관행대로 1종 오류를 5%로 두자.(즉 $\alpha = 0.05$)로 두자. 이는 false positive의 비율, 즉 효과가 없는데도 효과가 있다는 예측을결과를 얻을 확률을 5%까지 허용한다는 이야기다. 1,000 번의 실험에서이라면 효과가 없는 900번개 중에서 약 45번(= 900 X 0.05)개 정도는 효과가 있는 것으로 보고된될 수 있다. 
 
-![enter image description here](https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png?w=860)
+<p align="center"><kbd>
+  <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
+</kbd></p>
 
 보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 한다. 즉, false negative를 허용하는 비율이 20%다. 즉 true positive가 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
@@ -141,9 +143,9 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDY1MzQ1NywtMTQ1MjMzNTE5LC0xNT
-UyMDE4NjU1LC0xNzk0NjUzOSwtMTE3Njg5OTUwOSw5NTkxMjIw
-ODUsLTE5MTg1NjQxMjUsLTE1MjIxNTU2MDUsLTE4NjgyOTg3MD
-AsMjExNzM1Mzc4NSwtMTcxMzkyMTk3MiwxNTI0ODM3OTc4LC0x
-NTk0NDg4MDUzLDE5ODIyNTExOF19
+eyJoaXN0b3J5IjpbLTExMTMwMDg3OTIsLTE0NTIzMzUxOSwtMT
+U1MjAxODY1NSwtMTc5NDY1MzksLTExNzY4OTk1MDksOTU5MTIy
+MDg1LC0xOTE4NTY0MTI1LC0xNTIyMTU1NjA1LC0xODY4Mjk4Nz
+AwLDIxMTczNTM3ODUsLTE3MTM5MjE5NzIsMTUyNDgzNzk3OCwt
+MTU5NDQ4ODA1MywxOTgyMjUxMThdfQ==
 -->
