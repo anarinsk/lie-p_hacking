@@ -187,7 +187,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류는흔히 혼동행렬(confusion matrix)이라고 부르기도 한다. 
 
-$x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
+$x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다고 하자. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
 | | true | false |
 |--|--|--|
@@ -306,5 +306,5 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwOTE1Ml19
+eyJoaXN0b3J5IjpbNzA3OTMwMzEyXX0=
 -->
