@@ -142,7 +142,7 @@ $\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.2) \times 100 } = 
 
 자연과학이나 공학이 이렇다면 사회과학은 오죽. 입수한 자료를 이렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p&#8722;해킹을 최대한 막을 수 있는 방책은 무엇일까? 이는 다음 기회에 다시 이야기하도록 하자
 
-p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 만화를 이해하실 수 있다면 이 글을 
+p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 만화를 이해하실 수 있다면 이 글의 목적은 달성! 
 
 <p align="center"><kbd>
   <img src="https://www.explainxkcd.com/wiki/images/3/3f/significant.png" width="500">
@@ -153,10 +153,10 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTQ1MzM1OCwtMTM1NDY3NjI2MCwtMT
-A0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzkyMzk2LDU5MzQ2MjUw
-NywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLTEzODk4NjA3MTUsOT
-Q2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5
-NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC05NjUzNTE1OCwtMT
-A1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
+eyJoaXN0b3J5IjpbLTE0MTU1MTgzNTgsLTEzNTQ2NzYyNjAsLT
+EwNDExMjEzNDgsMTYzNDI3NTE2LDQ3MDM5MjM5Niw1OTM0NjI1
+MDcsMTczNTE3ODIwMiwxNzgzMTIxNTY1LC0xMzg5ODYwNzE1LD
+k0Njg1NDU2OSw2NjE1ODI5MDEsLTE4MjY3NzA0NjcsMTUyMTI0
+OTYyNyw4MTU1NzQzNTAsMTM3MzY3NzMxMywtOTY1MzUxNTgsLT
+EwNTYyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ==
 -->
