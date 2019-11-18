@@ -1,4 +1,4 @@
-**p&#8722;해킹**
+**p&#해킹**
 
 2018-10-02
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
@@ -154,7 +154,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDAxMDU2NywtMTM4OTg2MDcxNSw5ND
+eyJoaXN0b3J5IjpbLTgzNzc2ODU1MywtMTM4OTg2MDcxNSw5ND
 Y4NTQ1NjksNjYxNTgyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2
 MjcsODE1NTc0MzUwLDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMD
 U2MjQ0ODIxLC0xNjM5NDU4NjA4XX0=
