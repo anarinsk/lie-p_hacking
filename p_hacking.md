@@ -125,7 +125,7 @@ $$
 
 앞서 예시했던 문제에 빗대서 계산해보자. 
 
-$\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
+$\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + } = \dfrac{45}{45 + 80} = 0.36$
 
 생각보다 높다! 유의수준, 즉 $\alpha$ 5%가 제법 안전해 보였을일지 모르나, 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더 악화될 수도 있다. 
 
@@ -155,8 +155,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2MTAxNjIsOTQ2ODU0NTY5LDY2MTU4Mj
-kwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwx
-MzczNjc3MzEzLC05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYzOT
-Q1ODYwOF19
+eyJoaXN0b3J5IjpbLTYwNzk4MTg4Miw5NDY4NTQ1NjksNjYxNT
+gyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2MjcsODE1NTc0MzUw
+LDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMDU2MjQ0ODIxLC0xNj
+M5NDU4NjA4XX0=
 -->
