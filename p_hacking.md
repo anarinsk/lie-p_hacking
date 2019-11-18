@@ -126,7 +126,7 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 
 ## 이오니디스의 일침 
 
-1,000 번의 노가다가 끝났다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 의  report probability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
+1,000 번의 노가다가 끝났다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 판정한 것 중에서 문제가 있는 경우의 비율(False Positive Rate Probability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
 
 $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}} = \dfrac{\alpha  N_F}{\alpha N_F + (1-\beta) N_T}$
 
@@ -162,11 +162,10 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTUwMDY3NDcsLTE0MTU1MTgzNTgsLT
-EzNTQ2NzYyNjAsLTEwNDExMjEzNDgsMTYzNDI3NTE2LDQ3MDM5
-MjM5Niw1OTM0NjI1MDcsMTczNTE3ODIwMiwxNzgzMTIxNTY1LC
-0xMzg5ODYwNzE1LDk0Njg1NDU2OSw2NjE1ODI5MDEsLTE4MjY3
-NzA0NjcsMTUyMTI0OTYyNyw4MTU1NzQzNTAsMTM3MzY3NzMxMy
-wtOTY1MzUxNTgsLTEwNTYyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ==
-
+eyJoaXN0b3J5IjpbMTE1MTQzNTMxNywtMTQxNTUxODM1OCwtMT
+M1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzky
+Mzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLT
+EzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3
+MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC
+05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
 -->
