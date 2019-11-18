@@ -122,8 +122,7 @@ $(1-\를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothe
 $$
 \text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}} = \dfrac{\alpha  N_F}{\alpha N_F + (1-\beta) N_T}
 $$
-
-앞서 예시했던 문제에 빗대서 계산해보자. 
+위 식에서 $N_F$는 FALSE에 속하는 숫자, $N_T$는 TRUE에 속하는 숫자를 각각 의미한다. 앞서 예시했던 문제를 계산해보자. 
 
 $\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.2) \times 100 } = \dfrac{45}{45 + 80} = 0.36$
 
@@ -155,8 +154,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2MDc3MDU0LDk0Njg1NDU2OSw2NjE1OD
-I5MDEsLTE4MjY3NzA0NjcsMTUyMTI0OTYyNyw4MTU1NzQzNTAs
-MTM3MzY3NzMxMywtOTY1MzUxNTgsLTEwNTYyNDQ4MjEsLTE2Mz
-k0NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbLTEzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MT
+U4MjkwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1
+MCwxMzczNjc3MzEzLC05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMT
+YzOTQ1ODYwOF19
 -->
