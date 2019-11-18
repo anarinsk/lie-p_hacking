@@ -127,7 +127,7 @@ $$
 
 $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
-생각보다 높다! 유의수준, 즉 $\alpha$ 5%가 제법가 무척 안전해 보였을일지 모르나, 이렇게 살짝  들춰보면 연구에 커다란 결함이 보인다.  사실 이 문제는 더 악화될 수도 있다. 
+생각보다 높다! 유의수준, 즉 $\alpha$ 5%가 제법 안전해 보였을일지 모르나, 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더 악화될 수도 있다. 
 
 1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이때 false negative가 true positive의 숫자를 잡아먹게 되고, 이에 따라서 FPRP는 0.69로 올라간다. 
 2. 조금 더 극단적인 경우를 따져보자. 현상이 TRUE인 경우가 몹시 드물다고 해보자. 99%가 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$를 가정할  FPRP는 무려 0.93이 된다. 즉, 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
@@ -155,7 +155,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNj
-c3MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEz
-LC05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
+eyJoaXN0b3J5IjpbMjI2MTAxNjIsOTQ2ODU0NTY5LDY2MTU4Mj
+kwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwx
+MzczNjc3MzEzLC05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYzOT
+Q1ODYwOF19
 -->
