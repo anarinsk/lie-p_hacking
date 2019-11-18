@@ -112,7 +112,7 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" width="450">
 </kbd></p>
 
-이제 업계의 관행대로 1종 오류를 5%로 두자.즉 $\alpha = 0.05$. 이는 false positive의 비율, 즉 영 가설이 틀렸는데 이를 맞다고 예측할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험을 했다면, 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고될 것이다. 
+이제 업계의 관행대로 1종 오류를 5%로 두자($\alpha = 0.05$). 이는 false positive의 비율, 즉 영 가설이 틀렸는데 이를 맞다고 예측할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험을 했다면, 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고될 것이다. 
 
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
@@ -162,10 +162,10 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzY3MTI3LC0xNDE1NTE4MzU4LC0xMz
-U0Njc2MjYwLC0xMDQxMTIxMzQ4LDE2MzQyNzUxNiw0NzAzOTIz
-OTYsNTkzNDYyNTA3LDE3MzUxNzgyMDIsMTc4MzEyMTU2NSwtMT
-M4OTg2MDcxNSw5NDY4NTQ1NjksNjYxNTgyOTAxLC0xODI2Nzcw
-NDY3LDE1MjEyNDk2MjcsODE1NTc0MzUwLDEzNzM2NzczMTMsLT
-k2NTM1MTU4LC0xMDU2MjQ0ODIxLC0xNjM5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbMTc5MjMyNzM5MywtMTQxNTUxODM1OCwtMT
+M1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzky
+Mzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLT
+EzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3
+MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC
+05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
 -->
