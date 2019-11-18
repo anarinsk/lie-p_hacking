@@ -83,9 +83,11 @@ NHST가 지닌 문제를 제대로 다루려면 별도의 포스팅을 몇 차�
 
 # NHST 무엇이 문제인가?  
 
-NHST는 $\alpha$의 임계치를 정해 놓고 구한 p 값이 이보다 작을 경우 영가설을 기각하는 방식의 절차다. NHST가 $\alpha$를 고려한다면, $\beta$는 어떻게 되나? 만일 현상이 있는 데도 없다고 판정할 확률, 즉 2종 오류($\beta$) 제대로 통제되지 않아도 괜찮은 것일까? 
+NHST는 $\alpha$의 임계치를 정해 놓고 구한 p 값이 이보다 작을 경우 영가설을 기각하는 방식의 절차다. NHST가 $\alpha$를 고려하는 절차라면, $\beta$는 신경을 쓰지 않아도 되나? 즉, 2종 오류($\beta$) 제대로 통제되지 않아도 괜찮은 것일까? 
 
 $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측할 확률을 의미한다. 사실 NHST는 상당히 높은 수준의 검정력을 암묵적으로 전제한다.  하지만 이 전제가 성립하지 않는다면 혹은 이 문제에 관해서 의도적으로 침묵한다면 어떤 일이 생길까?  
+
+## 영 가설 vs 대립 가설 
 
 # Ioannidis, the destroyer 
 
@@ -153,10 +155,10 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU1MTgzNTgsLTEzNTQ2NzYyNjAsLT
-EwNDExMjEzNDgsMTYzNDI3NTE2LDQ3MDM5MjM5Niw1OTM0NjI1
-MDcsMTczNTE3ODIwMiwxNzgzMTIxNTY1LC0xMzg5ODYwNzE1LD
-k0Njg1NDU2OSw2NjE1ODI5MDEsLTE4MjY3NzA0NjcsMTUyMTI0
-OTYyNyw4MTU1NzQzNTAsMTM3MzY3NzMxMywtOTY1MzUxNTgsLT
-EwNTYyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbLTM3ODA3MjQxMCwtMTQxNTUxODM1OCwtMT
+M1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzky
+Mzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLT
+EzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3
+MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC
+05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
 -->
