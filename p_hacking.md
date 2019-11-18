@@ -89,6 +89,8 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 
 ## 영 가설 vs 대립 가설 
 
+눈치가 빠른 분이라면 뭔가 찜찜한 느낌이 들었을 것이다. 앞서 어떤 현상이 존재하는 경우와 그렇지 않은 경우를 대문자 TRUE, FALSE로 구분했다. 이를 영 가설, 대립 가설과 어떻게 매핑해야 할까? 사실 그때 그때, 문제에 맞게 정의하는 게 맞다. 중요한 것은 두 삭던
+
 # Ioannidis, the destroyer 
 
 이제 하버드 의대에 재직하는 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p&#8722;해킹을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성하는 경우는 드물었다. 대부분이 알고 있었고 찜찜하게 생각하고 있었지만, 문제로 삼기에는 (기둥 뿌리 무너질까) 망설여 지는 그런 것이 p&#8722;해킹이 아니었을까. 
@@ -155,10 +157,10 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDQ4Mzg1OCwtMTQxNTUxODM1OCwtMT
-M1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzky
-Mzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLT
-EzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3
-MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC
-05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
+eyJoaXN0b3J5IjpbMzE1NDQ3OTI1LC0xNDE1NTE4MzU4LC0xMz
+U0Njc2MjYwLC0xMDQxMTIxMzQ4LDE2MzQyNzUxNiw0NzAzOTIz
+OTYsNTkzNDYyNTA3LDE3MzUxNzgyMDIsMTc4MzEyMTU2NSwtMT
+M4OTg2MDcxNSw5NDY4NTQ1NjksNjYxNTgyOTAxLC0xODI2Nzcw
+NDY3LDE1MjEyNDk2MjcsODE1NTc0MzUwLDEzNzM2NzczMTMsLT
+k2NTM1MTU4LC0xMDU2MjQ0ODIxLC0xNjM5NDU4NjA4XX0=
 -->
