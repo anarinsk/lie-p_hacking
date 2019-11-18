@@ -95,7 +95,7 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 
 2005년 이오니디스 선생이 우상 파괴를 위한 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124) 하나를 투하했다. 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 이 논문에 관한 갑론을박이 진행중이다. 좌우간 p&#8722;해킹 만큼은 이 논문이 제대로 핵심을 보여주었다. 여기서는 [다른 분](https://scientificallysound.org/2017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
 
-인간은 '가시성'의 동물이다. 사람들은 보통 평범한 것보다는 튀는 걸 먼저 보려 하고, 특이하고 드러나는 걸 좋아한다. "뭘 당연한 걸 연구 씩이나 하나!" 연구자들이 종종 듣게 되는 이야기다. 과학하는 사람들도 인간이다. 그들 역시 가급적 세상을 놀라게 할 특이한 결과를 눈길이 찾아 헤맨다. 
+인간은 '가시성'의 동물이다. 사람들은 보통 평범한 것보다는 튀는 걸 먼저 보려 하고, 특이하고 드러나는 걸 좋아한다. "뭘 당연한 걸 연구 씩이나 하나!" 연구자들이 종종 듣게 되는 이야기다. 과학하는 사람들도 인간이다. 그들 역시 가급적 세상을 놀라게 할 특이한 결과를 찾아 헤맨다. 
 
 이렇게 가정해보자. 어떤 과학 실험을 1,000 번 할 때(보다 정확하게 표현하면 가설검정을 1,000 번 수행할 때), 그중에서 약 10%에서 신박한 결과가 나타난다고 하자. 그림으로 표시하면 아래와 같다.
 
@@ -154,9 +154,9 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNDYyNTA3LDE3MzUxNzgyMDIsMTc4Mz
-EyMTU2NSwtMTM4OTg2MDcxNSw5NDY4NTQ1NjksNjYxNTgyOTAx
-LC0xODI2NzcwNDY3LDE1MjEyNDk2MjcsODE1NTc0MzUwLDEzNz
-M2NzczMTMsLTk2NTM1MTU4LC0xMDU2MjQ0ODIxLC0xNjM5NDU4
-NjA4XX0=
+eyJoaXN0b3J5IjpbLTEwNjc3OTQ4MDEsNTkzNDYyNTA3LDE3Mz
+UxNzgyMDIsMTc4MzEyMTU2NSwtMTM4OTg2MDcxNSw5NDY4NTQ1
+NjksNjYxNTgyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2MjcsOD
+E1NTc0MzUwLDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMDU2MjQ0
+ODIxLC0xNjM5NDU4NjA4XX0=
 -->
