@@ -109,7 +109,7 @@ $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hyp
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
 </kbd></p>
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 하자. 즉, false negative를 허용하는 비율이 20%다. 즉 true positive가 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 하자. 즉, false negative를 허용하는 비율이 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
@@ -117,7 +117,7 @@ $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hyp
 
 ## 이오니디스의 한방 
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율결과가 나오지 않은 실험에서 Positive를 보고할 확률( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 자.
+1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율, 즉 fr확률( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 자.
 
 $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
 
@@ -151,6 +151,6 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MTQ3MjE0LC0xMDU2MjQ0ODIxLC0xNj
+eyJoaXN0b3J5IjpbMTY2OTU1NDM1LC0xMDU2MjQ0ODIxLC0xNj
 M5NDU4NjA4XX0=
 -->
