@@ -60,7 +60,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 [^1]: 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영 가설이 더 타당할 듯 싶다. 이 글에서는 영 가설로 쓰도록 하자.
 
 <p align="center"><kbd>
-  <img src="https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png" width="600">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/cmatrix.png?raw=true" width="600">
 </kbd></p>
 
 # NHST 무엇이 문제인가? (기초편)
@@ -109,7 +109,7 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 이렇게 가정해보자. 어떤 과학 실험을 1,000 번 할 때(보다 정확하게 표현하면 가설검정을 1,000 번 수행할 때), 그중에서 약 10%에서 신박한 결과가 나타난다고 하자. 그림으로 표시하면 아래와 같다.
 
 <p align="center"><kbd>
-  <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" width="450">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig2.png?raw=true" width="450">
 </kbd></p>
 
 이제 업계의 관행대로 1종 오류를 5%로 두자($\alpha = 0.05$). 이는 false positive의 비율, 즉 영 가설이 맞는데 이를 기각할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험을 했다면, 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05)이 효과가 있는 것으로 보고될 것이다. 아래 그림의 붉은 색에 해당한다. 
@@ -176,11 +176,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDIwOTU5NSwtMTQxMDQwODMyMiwtMT
-QxNTUxODM1OCwtMTM1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0
-Mjc1MTYsNDcwMzkyMzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLD
-E3ODMxMjE1NjUsLTEzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4
-MjkwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MC
-wxMzczNjc3MzEzLC05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYz
-OTQ1ODYwOF19
+eyJoaXN0b3J5IjpbLTEwNjg2OTQ5MDksMTg1NDIwOTU5NSwtMT
+QxMDQwODMyMiwtMTQxNTUxODM1OCwtMTM1NDY3NjI2MCwtMTA0
+MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzkyMzk2LDU5MzQ2MjUwNy
+wxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLTEzODk4NjA3MTUsOTQ2
+ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5Nj
+I3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC05NjUzNTE1OCwtMTA1
+NjI0NDgyMV19
 -->
