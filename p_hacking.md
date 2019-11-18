@@ -109,7 +109,7 @@ $(1-\를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothe
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
 </kbd></p>
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%라고 . 즉, false negative를 허용하는 비율이 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%  즉, false negative를 허용하는 비율이 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
@@ -120,12 +120,12 @@ $(1-\를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothe
 1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80 개의이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의  report probability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
 
 $$
-\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}} = \dfrac{\alpha * N_F}{\alpha * N_F + (1-\beta) N_T}
+\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}} = \dfrac{\alpha  N_F}{\alpha N_F + (1-\beta) N_T}
 $$
 
 앞서 예시했던 문제에 빗대서 계산해보자. 
 
-$\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + } = \dfrac{45}{45 + 80} = 0.36$
+$\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.2) \times 100 } = \dfrac{45}{45 + 80} = 0.36$
 
 생각보다 높다! 유의수준, 즉 $\alpha$ 5%가 제법 안전해 보였을일지 모르나, 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더 악화될 수도 있다. 
 
@@ -155,8 +155,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzk4MTg4Miw5NDY4NTQ1NjksNjYxNT
-gyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2MjcsODE1NTc0MzUw
-LDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMDU2MjQ0ODIxLC0xNj
-M5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbMjk2MDc3MDU0LDk0Njg1NDU2OSw2NjE1OD
+I5MDEsLTE4MjY3NzA0NjcsMTUyMTI0OTYyNyw4MTU1NzQzNTAs
+MTM3MzY3NzMxMywtOTY1MzUxNTgsLTEwNTYyNDQ4MjEsLTE2Mz
+k0NTg2MDhdfQ==
 -->
