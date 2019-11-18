@@ -55,7 +55,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 앞서의 표를 살짝 다르게 표현한 한 것이한 것이한 것이한 것이다. 표에서 예측이 맞는 경우의 은 $(1-\alpha)$, $(1-\beta)$이고 그렇지 않은 은 $\alpha$, $\beta$다. 이다. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 $\beta$를 2종 오류라고 부른다. 
 
-통계적인 검정은 영가설[^1]을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절차를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 일반적인 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때($p < 0.05$) 영가설을 **기각**하게 된다. 앞으로 영가설은 $H_0$로, 영가설 검정은 NH 적도록 하자. 
+통계적인 검정은 영가설[^1]을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절차를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 일반적인 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때($p < 0.05$) 영가설을 **기각**하게 된다. 앞으로 영가설은 $H_0$로, 영가설 검정은 NHST 적도록 하자. 
 
 [^1]: 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영가설이 더 타당할 듯 싶다. 이 글에서는 영가설로 쓰도록 하자.
 
@@ -154,9 +154,9 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI0ODkzOTgsMTczNTE3ODIwMiwxNz
-gzMTIxNTY1LC0xMzg5ODYwNzE1LDk0Njg1NDU2OSw2NjE1ODI5
-MDEsLTE4MjY3NzA0NjcsMTUyMTI0OTYyNyw4MTU1NzQzNTAsMT
-M3MzY3NzMxMywtOTY1MzUxNTgsLTEwNTYyNDQ4MjEsLTE2Mzk0
-NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbNTkzNDYyNTA3LDE3MzUxNzgyMDIsMTc4Mz
+EyMTU2NSwtMTM4OTg2MDcxNSw5NDY4NTQ1NjksNjYxNTgyOTAx
+LC0xODI2NzcwNDY3LDE1MjEyNDk2MjcsODE1NTc0MzUwLDEzNz
+M2NzczMTMsLTk2NTM1MTU4LC0xMDU2MjQ0ODIxLC0xNjM5NDU4
+NjA4XX0=
 -->
