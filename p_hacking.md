@@ -94,6 +94,8 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 * TRUE = 대립가설이 존재하는 경우 
 * FALSE = 귀무가설이 참인 경우 
 
+이렇게 둔다면, false positive의 확률 $\alpha은 귀무 가설이 참인데 이를 기각할 확률, 즉
+
 # Ioannidis, the destroyer 
 
 이제 하버드 의대에 재직하는 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p&#8722;해킹을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성하는 경우는 드물었다. 대부분이 알고 있었고 찜찜하게 생각하고 있었지만, 문제로 삼기에는 (기둥 뿌리 무너질까) 망설여 지는 그런 것이 p&#8722;해킹이 아니었을까. 
@@ -160,7 +162,7 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDQ2MzY4NCwtMTQxNTUxODM1OCwtMT
+eyJoaXN0b3J5IjpbLTc1Njg5MzgyMywtMTQxNTUxODM1OCwtMT
 M1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzky
 Mzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLT
 EzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3
