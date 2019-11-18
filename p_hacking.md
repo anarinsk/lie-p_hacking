@@ -117,18 +117,18 @@ $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hyp
 
 ## 이오니디스의 한방 
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율, 즉 fr확률( false-positive report probability: FPRP)이 얼마나 되는지 계산해보라. 기계학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 자.
+1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율, 즉 FPRP( false-positive report probability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
 
 $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
 
 $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
-생각보다 높다! 유의수준 0.05(5%)이 제법가 무척 안전해 보였을일지 모르나, 이렇게 살짝 안을 들춰보면 연구에 커다란 금이 보인다. 여기서 신뢰성은 다음과 같이의 신뢰성에 문제가 생기는 것이다. 이 문제는 더 악화될 수도 있다. 
+생각보다 높다! 유의수준 0.05(5%)이 제법가 무척 안전해 보였을일지 모르나, 이렇게 살짝 더 들춰보면 연구에 커다란 결함이 보인다.  사실 이 문제는 더 악화될 수도 있다. 
 
 1. 보통 $1-\beta$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이 경우 FPRP는 0.69로 올라간다. 
 2. 대부분의 가설이 FALSE이고 1% 정도만면 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$의 조건에서로 가정할 경우 FPRP는 무려 0.93이 된다. 즉, 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
 
-앞서 과학자들도 신기함박한 것을 추구한다고 말했다. 놀라운신박한 것이란 좀처럼사실 잘 검증되기 힘들다는 의미이기도 하든 것을 의미한다. 해당 가설을 검정을 할 경우 대부분 negative로 보고 되기 쉽다는FALSE로 보고될 것들이다. 이런 분야에서 어찌해서 positive를 발견했다면 "유레카!"를 외치기 앞서 연구가 잘못된 것(TRUE를 찾아냈다면 그 연구가 false positive)일 확률부터 걱정해야 한다. 우쭐하고 감탄하기에 앞서 의심이 먼저다! 은 상상 이상으로 높다.
+앞서 과학자들도 신기한 것을 추구한다고 말했다. 놀라운 것이란 좀처럼사실 잘 검증되기 힘들다는 의미이기도 하든 것을 의미한다. 해당 가설을 검정을 할 경우 대부분 negative로 보고 되기 쉽다는FALSE로 보고될 것들이다. 이런 분야에서 어찌해서 positive를 발견했다면 "유레카!"를 외치기 앞서 연구가 잘못된 것(TRUE를 찾아냈다면 그 연구가 false positive)일 확률부터 걱정해야 한다. 우쭐하고 감탄하기에 앞서 의심이 먼저다! 은 상상 이상으로 높다.
 
 # 정리 
 
@@ -151,6 +151,6 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTU1NDM1LC0xMDU2MjQ0ODIxLC0xNj
-M5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbMTE4OTk1NzU5MywtMTA1NjI0NDgyMSwtMT
+YzOTQ1ODYwOF19
 -->
