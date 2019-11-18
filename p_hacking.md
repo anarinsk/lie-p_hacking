@@ -115,9 +115,9 @@ $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hyp
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
 </kbd></p>
 
-## 이오니디스의 한방 
+## 이오니디스의 일침
 
-1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율, 즉 FPRP( false-positive report probability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
+1,000 번의 노가다가 끝나고 나면, 우리는 45 개의 false positive와 80 개의 true positive를 얻게 된다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 있는 경우(false positive)의 비율, 즉 FPRP( false-positive report probability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
 
 $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
 
@@ -151,6 +151,6 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg4ODUxNDMsLTEwNTYyNDQ4MjEsLT
-E2Mzk0NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbMTE4MDUzMzAwMCwtMTA1NjI0NDgyMSwtMT
+YzOTQ1ODYwOF19
 -->
