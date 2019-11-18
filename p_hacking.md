@@ -119,9 +119,8 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 
 1,000 번의 노가다가 끝나고 나면, 우리는 45 개의이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 보고한 것 중에서 문제가 의  report probability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
 
-$$
-\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}} = \dfrac{\alpha  N_F}{\alpha N_F + (1-\beta) N_T}
-$$
+$\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}} = \dfrac{\alpha  N_F}{\alpha N_F + (1-\beta) N_T}$
+
 위 식에서 $N_F$는 FALSE에 속하는 숫자, $N_T$는 TRUE에 속하는 숫자를 각각 의미한다. 앞서 예시했던 문제를 계산해보자. 
 
 $\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.2) \times 100 } = \dfrac{45}{45 + 80} = 0.36$
@@ -143,7 +142,7 @@ $\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.2) \times 100 } = 
 
 자연과학이나 공학이 이렇다면 사회과학은 오죽. 입수한 자료를 이렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p&#8722;해킹을 최대한 막을 수 있는 방책은 무엇일까? 이는 다음 기회에 다시 이야기하도록 하자
 
-p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 
+p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 만화를 이해하실 수 있다면 이 글을 
 
 <p align="center"><kbd>
   <img src="https://www.explainxkcd.com/wiki/images/3/3f/significant.png" width="500">
@@ -154,10 +153,10 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ2NzYyNjAsLTEwNDExMjEzNDgsMT
-YzNDI3NTE2LDQ3MDM5MjM5Niw1OTM0NjI1MDcsMTczNTE3ODIw
-MiwxNzgzMTIxNTY1LC0xMzg5ODYwNzE1LDk0Njg1NDU2OSw2Nj
-E1ODI5MDEsLTE4MjY3NzA0NjcsMTUyMTI0OTYyNyw4MTU1NzQz
-NTAsMTM3MzY3NzMxMywtOTY1MzUxNTgsLTEwNTYyNDQ4MjEsLT
-E2Mzk0NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbLTM2MTQ1MzM1OCwtMTM1NDY3NjI2MCwtMT
+A0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzkyMzk2LDU5MzQ2MjUw
+NywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLTEzODk4NjA3MTUsOT
+Q2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5
+NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC05NjUzNTE1OCwtMT
+A1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
 -->
