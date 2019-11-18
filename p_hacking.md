@@ -138,10 +138,10 @@ $\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.2) \times 100 } = 
 
 1. 보통 $(1-\beta)$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이때 false negative가 true positive의 숫자를 잡아먹게 되고, 이에  FPRP는 0.69로 올라간다. 즉, 
 
-$\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.8) \times 100 } = \dfrac{45}{45 + 80} = 0.692$
+$\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.8) \times 100 } = \dfrac{45}{45 + 80} \approx 0.69$
 
 
-2. 조금 더 극단적인 경우를 따져보자. 현상이 TRUE인 경우가 몹시 드물다고 해보자. 99%가 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$가정할  FPRP는 무려 0.93이 된다. 즉, 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
+2. 조금 더 가볼까? 현상이 TRUE인 경우가 몹시 드물다고 해보자. 99%가 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$가정할  FPRP는 무려 0.93이 된다. 즉, 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다. 
 
 앞서 과학자들도 신기한 것을 추구한다고 말했다. 놀라운 것이란   관찰되기도 따라서사실 잘 검증되기 힘들다는 의미이기도 하다. 해당 가설을 검정을 할 경우 대부분 negative로 보고 되기 쉽다. 이런 분야에서 어찌해서 positive를 발견했다면 "유레카!"를 외치고 싶을 것이다. 이오니디스 선생은 우쭐하고 감탄하기에 앞서 의심이 먼저다, 라는 간단한 말씀을 하고 계신 것이다. 
 
@@ -166,10 +166,10 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTM4MTY1MiwtMTQxNTUxODM1OCwtMT
-M1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzky
-Mzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLT
-EzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3
-MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC
-05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
+eyJoaXN0b3J5IjpbMTU4OTg3MDYzLC0xNDE1NTE4MzU4LC0xMz
+U0Njc2MjYwLC0xMDQxMTIxMzQ4LDE2MzQyNzUxNiw0NzAzOTIz
+OTYsNTkzNDYyNTA3LDE3MzUxNzgyMDIsMTc4MzEyMTU2NSwtMT
+M4OTg2MDcxNSw5NDY4NTQ1NjksNjYxNTgyOTAxLC0xODI2Nzcw
+NDY3LDE1MjEyNDk2MjcsODE1NTc0MzUwLDEzNzM2NzczMTMsLT
+k2NTM1MTU4LC0xMDU2MjQ0ODIxLC0xNjM5NDU4NjA4XX0=
 -->
