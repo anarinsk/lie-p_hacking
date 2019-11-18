@@ -112,13 +112,13 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" width="450">
 </kbd></p>
 
-이제 업계의 관행대로 1종 오류를 5%로 두자($\alpha = 0.05$). 이는 false positive의 비율, 즉 영 가설이 틀렸는데 이를 맞다고 예측할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험을 했다면, 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고될 것이다. 
+이제 업계의 관행대로 1종 오류를 5%로 두자($\alpha = 0.05$). 이는 false positive의 비율, 즉 영 가설이 맞는데 이를 기각할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험을 했다면, 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05)이 효과가 있는 것으로 보고될 것이다. 아래 그림의 붉은 색에 해당한다. 
 
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
 </kbd></p>
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%  즉, false negative를 허용하는 비율이 20%다. 즉 대립가설로 예측했으나 영 가설이 맞는 경우는 100 개 중에서 20 개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20% 라고 하자. 즉, false negative를 허용하는 비율, 즉 영 가설이 맞다고  예측했으 영 가설이 맞는 경우는 100 개 중에서 20 개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
@@ -162,7 +162,7 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjMyNzM5MywtMTQxNTUxODM1OCwtMT
+eyJoaXN0b3J5IjpbLTI5MTA1MjgyMCwtMTQxNTUxODM1OCwtMT
 M1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzky
 Mzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLT
 EzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3
