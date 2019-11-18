@@ -14,7 +14,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 > If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
 
-데이터를 고문하다니? 백문이 불여일견!이다. 네이트 실버의 538에서 p-해킹hacking이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
+데이터를 고문하다니? 백문이 불여일견!이다. 네이트 실버의 538에서 p-해킹이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
@@ -22,7 +22,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 # 사실 조건과 예측 
 
-p-해킹hacking의 문제를 살펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류는흔히 혼동행렬(confusion matrix)이라고 부르기도 한다. 
+p-해킹의 문제를 살펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류표는 혼동행렬(confusion matrix)이라고 부르기도 한다. 
 
 $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
@@ -72,7 +72,7 @@ NHST가 지닌 문제를 제대로 다루려면 별도의 포스팅을 몇 차�
 1. 현재의 데이터가 주어졌을 때, $H_0$가 참일 확률 
 2. 만일 $H_0$ 참이라면, 현재의 데이터를 얻을 확률
 
-1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 원래 명제와 역 명제의 진리표 결과는 항상 등치가 아니다. 그런데 우리는 종종 $p$ 값을 은근슬쩍 1처럼 해석하고 사용하 한다. 이해를 돕기 위해 법의 맥락에서 다른 사례를 들어보겠다. 
+1과 2는 같은 말인가? 고등학교 때 배운 명제를 떠올려보자. 원래 명제와 역 명제의 진리표 결과는 항상 등치가 아니다. 그런데 우리는 종종 $p$ 값을 은근슬쩍 1처럼 해석하고 사용한다. 이해를 돕기 위해 법의 맥락에서 다른 사례를 들어보겠다. 
 
 1. $x$ 라는 증거가 발견되었을 때, 피고가 범인일 확률 
 2. 피고가 범인일 때, $x$ 라는 증거를 얻을 확률 
@@ -154,7 +154,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTIxOTUyOSwtMTM4OTg2MDcxNSw5ND
+eyJoaXN0b3J5IjpbMTM2OTcyMzc2MywtMTM4OTg2MDcxNSw5ND
 Y4NTQ1NjksNjYxNTgyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2
 MjcsODE1NTc0MzUwLDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMD
 U2MjQ0ODIxLC0xNjM5NDU4NjA4XX0=
