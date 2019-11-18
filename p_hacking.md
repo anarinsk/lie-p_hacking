@@ -48,8 +48,8 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 ||TRUE | FALSE |
 |--|--|--|
-| **positive** | $1-\alpha$ | $\alpha$ |
-| **negative** | $1-\beta$ |  $\beta$ |
+| **positive** | $\beta$ | $\alpha$ |
+| **negative** | $1-\beta$ |  1-$\alpha$ |
 
 ($\alpha, \beta \in [0,1]$)
 
@@ -153,7 +153,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk3NjIyMTMsLTE4MjY3NzA0NjcsMT
-UyMTI0OTYyNyw4MTU1NzQzNTAsMTM3MzY3NzMxMywtOTY1MzUx
-NTgsLTEwNTYyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbMTg2MDI1OTE4OSwtMTgyNjc3MDQ2NywxNT
+IxMjQ5NjI3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC05NjUzNTE1
+OCwtMTA1NjI0NDgyMSwtMTYzOTQ1ODYwOF19
 -->
