@@ -6,7 +6,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 # 들어가며 
 
-요즘 p&#8722;해킹 말을 심심치 않게 들을 수 있다. 혹자는 "재현성"의 위기라고도 한다. 여기서 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은충분히 비슷한 결과가 나와야 한다는 것이다.  
+요즘 p&#8722;해킹이란 말을 심심치 않게 들을 수 있다. 혹자는 "재현성"의 위기라고도 한다. 여기서 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은충분히 비슷한 결과가 나와야 한다는 것이다.  
 
 자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시하는 실험으로 구현할될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때에서는 기본적으로 같은 결과가 나와야 한다.
 
@@ -14,15 +14,15 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 > If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
 
-데이터를 고문하다니? 백문이 불여일견!이다. 네이트 실버의 538에서 p-해킹이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
+데이터를 고문하다니? 백문이 불여일견!이다. 네이트 실버의 538에서 p&#8722;해킹이란 무엇인지를 체험해 볼 수 있는 좋은 웹 서비스를 만들었다. 
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
-같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서)필터를 걸어 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜어째서 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광을 빌리게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p-해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하hacking이다. 
+같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서)필터를 걸어 당신이 원하는 '과학적' 결론을 찾을 수 있다! 왜어째서 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광을 빌리게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p&#8722;해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하다. 
 
 # 사실 조건과 예측 
 
-p-해킹의 문제를 살펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류표는 혼동행렬(confusion matrix)이라고 부르기도 한다. 
+p&#8722;해킹의 문제를 살펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류표는 혼동행렬(confusion matrix)이라고 부르기도 한다. 
 
 $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
@@ -154,8 +154,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0NTkyNDI5LC0xMzg5ODYwNzE1LDk0Nj
-g1NDU2OSw2NjE1ODI5MDEsLTE4MjY3NzA0NjcsMTUyMTI0OTYy
-Nyw4MTU1NzQzNTAsMTM3MzY3NzMxMywtOTY1MzUxNTgsLTEwNT
-YyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbLTI3MTc4NTU5NCwtMTM4OTg2MDcxNSw5ND
+Y4NTQ1NjksNjYxNTgyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2
+MjcsODE1NTc0MzUwLDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMD
+U2MjQ0ODIxLC0xNjM5NDU4NjA4XX0=
 -->
