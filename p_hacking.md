@@ -40,7 +40,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 그리고 여기서 true, false는 형용사다.[^3] 
 
-[^3]: 이를 한번 새겨두면 말을 외울 때 쓸모가 있다. 즉, true는 뒤에 따라오는 말이 맞는 것을 지칭한다. true positive, true negative는 positive, negative의 판단이 맞았다는
+[^3]: 이를 한번 새겨두면 말을 외울 때 쓸모가 있다. 즉, true는 뒤에 따라오는 말이 맞는 것을 지칭한다. true positive, true negative는 positive, negative의 판단이 맞았다는 이야기다. false positive는 positive 판단이 틀렸다는 이야기다. 즉, 원래 FALSE인데 TRUE로 판정한 것이다. 따라서 "오탐"이다. false negative는 negative 판단이 틀렸다는 뜻이다. 즉, 원래 TRUE인데 FALSE로 판정한 것이고, "미탐"이다. 
 
 # 1종 오류와 2종 오류 
 
@@ -53,7 +53,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 ($\alpha, \beta \in [0,1]$)
 
-앞서의 표를 살짝 다르게 표현해보자. positive, negative는 TRUE/FALSE에 대한 판정을 뜻한다. positive라면 TRUE라고 판정하는 것이고, negative라면 FALSE라고 판정하는 경우다. 표에서 예측이 맞는 경우의 비율은 $(1-\alpha)$, $(1-\beta)$이고 그렇지 않은 비율은 $\alpha$, $\beta$다. 여기서할 것이다. 이를 비율로 다시 표현하자. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 $\beta$를 2종 오류라고 부른다. 
+앞서의 표를 살짝 다르게 표현한 것이다. 표에서 예측이 맞는 경우의 비율은 $(1-\alpha)$, $(1-\beta)$이고 그렇지 않은 비율은 $\alpha$, $\beta$다. 여기서할 것이다. 이를 비율로 다시 표현하자. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 $\beta$를 2종 오류라고 부른다. 
 
 영가설[^1]을 통해 결과가 유의한 정앞서 사실 조건을 TRUE라고 굳이 대문자로 쓴 이유를 이제 살짝 밝히겠다. 사실 통계적인 검정은 영가설<sup id="a1">[1](#f1)</sup>을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절차치를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 한보통 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 NHST형태다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때($p < 0.05$) 영가설을 기각하게 된다. 앞으로 영가설은 $H_0$로도 적도록 하자. 
 
@@ -149,6 +149,6 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일 켄달 먼로
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NjU2MzU2LC0xMDU2MjQ0ODIxLC0xNj
-M5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbMTUyNjAwMTUxMSwtMTA1NjI0NDgyMSwtMT
+YzOTQ1ODYwOF19
 -->
