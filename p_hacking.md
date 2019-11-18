@@ -115,13 +115,13 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 이제 업계의 관행대로 1종 오류를 5%로 두자($\alpha = 0.05$). 이는 false positive의 비율, 즉 영 가설이 맞는데 이를 기각할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험을 했다면, 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05)이 효과가 있는 것으로 보고될 것이다. 아래 그림의 붉은 색에 해당한다. 
 
 <p align="center"><kbd>
-  <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig3.png?raw=true" width="450">
 </kbd></p>
 
 보통의 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20% 라고 하자. 즉, false negative를 허용하는 비율, 즉 영 가설로 예측했으나 대립 가설이 맞는 100 개 중에서 20 개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 아래 그림에서 녹색에 해당한다. 이제 혼동 행렬에서 모든 경우를 다 표기했음을 확인해두자. 
 
 <p align="center"><kbd>
-  <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig4.png?raw=true" width="450">
 </kbd></p>
 
 ## 이오니디스의 일침 
@@ -168,7 +168,7 @@ $$
 p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 만화를 이해하실 수 있다면 이 글의 목적은 달성! 
 
 <p align="center"><kbd>
-  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/significant.png" width="500">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/significant.png?raw=true" width="500">
 </kbd></p>
 
 ----
@@ -176,11 +176,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg2OTQ5MDksMTg1NDIwOTU5NSwtMT
-QxMDQwODMyMiwtMTQxNTUxODM1OCwtMTM1NDY3NjI2MCwtMTA0
-MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzkyMzk2LDU5MzQ2MjUwNy
-wxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLTEzODk4NjA3MTUsOTQ2
-ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5Nj
-I3LDgxNTU3NDM1MCwxMzczNjc3MzEzLC05NjUzNTE1OCwtMTA1
-NjI0NDgyMV19
+eyJoaXN0b3J5IjpbMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xND
+EwNDA4MzIyLC0xNDE1NTE4MzU4LC0xMzU0Njc2MjYwLC0xMDQx
+MTIxMzQ4LDE2MzQyNzUxNiw0NzAzOTIzOTYsNTkzNDYyNTA3LD
+E3MzUxNzgyMDIsMTc4MzEyMTU2NSwtMTM4OTg2MDcxNSw5NDY4
+NTQ1NjksNjYxNTgyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2Mj
+csODE1NTc0MzUwLDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMDU2
+MjQ0ODIxXX0=
 -->
