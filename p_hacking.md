@@ -139,11 +139,11 @@ $\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.2) \times 100 } = 
 
 과학자는 '객관적 진실'을 추구하지만 연구 과정 그리고 연구를 보고하는 결과물까지 객관적이기는 어렵다. 여기에는 과학자의 욕망이 개입하고 이에 따라서 보다 눈에 띄는더욱 신박한 연구를 추구하려는 유인이 자연스럽게 생겨난발생하기 마련이다. 
 
-이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면 라는 것이다. 과학을 회의하라는 것이 아니다.  권위를 거부할 필요는 없 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락을 살피라는 것이다. p-해킹이 출세욕에 사로 잡힌 과학자의 의도적 왜곡 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 무해하 열정이 의도하지 않은 p-해킹을 이끌 수 있다. 
+이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면 라는 것이다. 과학을 회의하라는 것이 아니다.  권위를 거부할 필요는 없 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락을 살피라는 것이다. p&#8722;해킹이 출세욕에 사로 잡힌 과학자의 의도적 왜곡 수도 있지만, 과학을 향한 '순수한' 열정 그 자체의 산물일 수도 있겠다. 무해하 열정이 의도하지 않은 p&#8722;해킹을 이끌 수 있다. 
 
-자연과학이나 공학이 이렇다면 사회과학은 오죽. 입수한 자료를 이렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p-해킹을 최대한 막을 수 있는 방책은 무엇일까? 이는 다음 기회에 다시 이야기하도록 하자
+자연과학이나 공학이 이렇다면 사회과학은 오죽. 입수한 자료를 이렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p&#8722;해킹을 최대한 막을 수 있는 방책은 무엇일까? 이는 다음 기회에 다시 이야기하도록 하자
 
-p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 
+p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 
 
 <p align="center"><kbd>
   <img src="https://www.explainxkcd.com/wiki/images/3/3f/significant.png" width="500">
@@ -154,9 +154,10 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDI3NTE2LDQ3MDM5MjM5Niw1OTM0Nj
-I1MDcsMTczNTE3ODIwMiwxNzgzMTIxNTY1LC0xMzg5ODYwNzE1
-LDk0Njg1NDU2OSw2NjE1ODI5MDEsLTE4MjY3NzA0NjcsMTUyMT
-I0OTYyNyw4MTU1NzQzNTAsMTM3MzY3NzMxMywtOTY1MzUxNTgs
-LTEwNTYyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ==
+eyJoaXN0b3J5IjpbLTEwNDExMjEzNDgsMTYzNDI3NTE2LDQ3MD
+M5MjM5Niw1OTM0NjI1MDcsMTczNTE3ODIwMiwxNzgzMTIxNTY1
+LC0xMzg5ODYwNzE1LDk0Njg1NDU2OSw2NjE1ODI5MDEsLTE4Mj
+Y3NzA0NjcsMTUyMTI0OTYyNyw4MTU1NzQzNTAsMTM3MzY3NzMx
+MywtOTY1MzUxNTgsLTEwNTYyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ
+==
 -->
