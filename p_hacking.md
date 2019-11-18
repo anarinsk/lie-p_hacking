@@ -121,6 +121,8 @@ $1-\beta$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hyp
 
 $\text{FPRP} = \dfrac{\text{false positive}}{\text{false positive + true positive}}$
 
+앞서 예시했던 문젱
+
 $\text{FPRP} = \dfrac{45}{45 + 80} = 0.36$
 
 생각보다 높다! 유의수준 0.05(5%)이 제법가 무척 안전해 보였을일지 모르나, 이렇게 살짝 더 들춰보면 연구에 커다란 결함이 보인다.  사실 이 문제는 더 악화될 수도 있다. 
@@ -151,6 +153,6 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDUzMzAwMCwtMTA1NjI0NDgyMSwtMT
-YzOTQ1ODYwOF19
+eyJoaXN0b3J5IjpbLTIwMDUyMzk4MDksLTEwNTYyNDQ4MjEsLT
+E2Mzk0NTg2MDhdfQ==
 -->
