@@ -65,7 +65,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 # NHST 무엇이 문제인가? (기초편)
 
-NHST가 지닌 문제를 제대로 다루려면 별도의 포스팅을 몇 차례는 해다. 일단 흔하게 저지르기 쉬운 기초적인 오류 하나 짚고 p-해킹hacking으로 넘어가도록 하자. 
+NHST가 지닌 문제를 제대로 다루려면 별도의 포스팅을 몇 차례는 해야 할 것이다. 일단 흔하게 저지르기 쉬운 기초적인 오류 하나 짚고 p-해킹으로 넘어가도록 하자. 
 
 통계 패키지를 돌릴렸을 때 $p < 0.05$와 같은 메시지가 뜨 안도한다. 이때 마음 속에서 이런 목소리가 들린다. "주어진 데이터에서 $H_0$ 참일 확률  $p$..."  이 목소리에 솔깃했다면 정신을 차려야 한다 여기서 $p$ 값의 의미는 오히려 역(reverse)  명제에 가깝다. 
 
@@ -154,7 +154,7 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTcyMzc2MywtMTM4OTg2MDcxNSw5ND
+eyJoaXN0b3J5IjpbMTY5MDMxNjYyMywtMTM4OTg2MDcxNSw5ND
 Y4NTQ1NjksNjYxNTgyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2
 MjcsODE1NTc0MzUwLDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMD
 U2MjQ0ODIxLC0xNjM5NDU4NjA4XX0=
