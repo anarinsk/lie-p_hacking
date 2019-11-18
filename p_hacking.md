@@ -168,7 +168,7 @@ $$
 p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 만화를 이해하실 수 있다면 이 글의 목적은 달성! 
 
 <p align="center"><kbd>
-  <img src="https://www.explainxkcd.com/wiki/images/3/3f/significant.png" width="500">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/significant.png" width="500">
 </kbd></p>
 
 ----
@@ -176,11 +176,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA0MDgzMjIsLTE0MTU1MTgzNTgsLT
-EzNTQ2NzYyNjAsLTEwNDExMjEzNDgsMTYzNDI3NTE2LDQ3MDM5
-MjM5Niw1OTM0NjI1MDcsMTczNTE3ODIwMiwxNzgzMTIxNTY1LC
-0xMzg5ODYwNzE1LDk0Njg1NDU2OSw2NjE1ODI5MDEsLTE4MjY3
-NzA0NjcsMTUyMTI0OTYyNyw4MTU1NzQzNTAsMTM3MzY3NzMxMy
-wtOTY1MzUxNTgsLTEwNTYyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ==
-
+eyJoaXN0b3J5IjpbMTg1NDIwOTU5NSwtMTQxMDQwODMyMiwtMT
+QxNTUxODM1OCwtMTM1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0
+Mjc1MTYsNDcwMzkyMzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLD
+E3ODMxMjE1NjUsLTEzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4
+MjkwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MC
+wxMzczNjc3MzEzLC05NjUzNTE1OCwtMTA1NjI0NDgyMSwtMTYz
+OTQ1ODYwOF19
 -->
