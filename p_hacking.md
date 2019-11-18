@@ -1,4 +1,4 @@
-**p&#해킹**
+**p&#8722;해킹**
 
 2018-10-02
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
@@ -6,7 +6,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 # 들어가며 
 
-요즘 p-hacking이라는 말을 심심치 않게 들을 수 있다. 혹자는 "재현성"의 위기라고도 한다. 여기서 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은충분히 비슷한 결과가 나와야 한다는 것이다.  
+요즘 p&#8722;해킹 말을 심심치 않게 들을 수 있다. 혹자는 "재현성"의 위기라고도 한다. 여기서 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은충분히 비슷한 결과가 나와야 한다는 것이다.  
 
 자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 다른 사람이 실시하는 실험으로 구현할될 수 있을 것이다. 누가 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때에서는 기본적으로 같은 결과가 나와야 한다.
 
@@ -154,8 +154,8 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzc2ODU1MywtMTM4OTg2MDcxNSw5ND
-Y4NTQ1NjksNjYxNTgyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2
-MjcsODE1NTc0MzUwLDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMD
-U2MjQ0ODIxLC0xNjM5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbMzc0NTkyNDI5LC0xMzg5ODYwNzE1LDk0Nj
+g1NDU2OSw2NjE1ODI5MDEsLTE4MjY3NzA0NjcsMTUyMTI0OTYy
+Nyw4MTU1NzQzNTAsMTM3MzY3NzMxMywtOTY1MzUxNTgsLTEwNT
+YyNDQ4MjEsLTE2Mzk0NTg2MDhdfQ==
 -->
