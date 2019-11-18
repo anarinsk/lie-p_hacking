@@ -55,9 +55,9 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
 
 앞서의 표를 살짝 다르게 표현한 한 것이한 것이한 것이한 것이다. 표에서 예측이 맞는 경우의 확률은 $(1-\alpha)$, $(1-\beta)$이고 그렇지 않은 확률은 $\alpha$, $\beta$다. 이다. 이때,  false positive 의 비율을 $\alpha$라고 하자. 이를 통계학에서는 1종 오류라고 한다. 반대로 false negative의 비율 $\beta$를 2종 오류라고 부른다. 
 
-통계적인 검정은 영가설[^1]을 통해 이루어진다. 영가설을 통해 유의도를 검정하는 통계학적인 절차를 영가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 일반적인 NHST다. 해당 영가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때($p < 0.05$) 영가설을 **기각**하게 된다. 앞으로 영가설은 $H_0$로, 영가설 검정은 NHST 적도록 하자. 
+통계적인 검정은 영 가설[^1]을 통해 이루어진다. 영 가설을 통해 유의도를 검정하는 통계학적인 절차를 영 가설 검정(Null Hypothesis Significance Test: NHST)라고 부른다. NHST에서 영 가설은 대체로 등호의 형태로 표현된다. 예를 들어, 어떤 회귀식의 한 계수가 $\beta_1 = 0$ 임을 검증하는 것이 일반적인 NHST다. 해당 영 가설이 맞다고 할 때 현재와 같은 결과를 얻을 확률이 p-value이므로, 이 값이 일정한 임계치(대체로 1%, 5%를 많이 쓴다)보다 낮을 때($p < 0.05$) 영 가설을 **기각**하게 된다. 앞으로 영 가설은 $H_0$로, 영 가설 검정은 NHST 적도록 하자. 
 
-[^1]: 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영가설이 더 타당할 듯 싶다. 이 글에서는 영가설로 쓰도록 하자.
+[^1]: 보통 "귀무 가설"로 번역하지만 원어의 의미로 보면 영 가설이 더 타당할 듯 싶다. 이 글에서는 영 가설로 쓰도록 하자.
 
 <p align="center"><kbd>
   <img src="https://cdn-images-1.medium.com/max/1600/1*7EYylA6XlXSGBCF77j_rOA.png" width="600">
@@ -83,7 +83,7 @@ NHST가 지닌 문제를 제대로 다루려면 별도의 포스팅을 몇 차�
 
 # NHST 무엇이 문제인가?  
 
-NHST는 $\alpha$의 임계치를 정해 놓고 구한 p 값이 이보다 작을 경우 영가설을 기각하는 방식의 절차다. NHST가 $\alpha$를 고려하는 절차라면, $\beta$는 신경을 쓰지 않아도 되나? 즉, 2종 오류($\beta$) 제대로 통제되지 않아도 괜찮은 것일까? 
+NHST는 $\alpha$의 임계치를 정해 놓고 구한 p 값이 이보다 작을 경우 영 가설을 기각하는 방식의 절차다. NHST가 $\alpha$를 고려하는 절차라면, $\beta$는 신경을 쓰지 않아도 되나? 즉, 2종 오류($\beta$) 제대로 통제되지 않아도 괜찮은 것일까? 
 
 $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative hypothesis)이 사실일 때 이를 사실로 예측할 확률을 의미한다. 사실 NHST는 상당히 높은 수준의 검정력을 암묵적으로 전제한다.  하지만 이 전제가 성립하지 않는다면 혹은 이 문제에 관해서 의도적으로 침묵한다면 어떤 일이 생길까?  
 
@@ -105,13 +105,13 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig2.png" width="450">
 </kbd></p>
 
-이제 업계의 관행대로 1종 오류를 5%로 두자.즉 $\alpha = 0.05$. 이는 false positive의 비율, 즉 영가설이 틀렸는데 이를 맞다고 예측할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험을 했다면, 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고될 것이다. 
+이제 업계의 관행대로 1종 오류를 5%로 두자.즉 $\alpha = 0.05$. 이는 false positive의 비율, 즉 영 가설이 틀렸는데 이를 맞다고 예측할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험을 했다면, 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05) 정도는 효과가 있는 것으로 보고될 것이다. 
 
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
 </kbd></p>
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%  즉, false negative를 허용하는 비율이 20%다. 즉 대립가설로 예측했으나 영가설이 맞는 경우는 100 개 중에서 20 개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%  즉, false negative를 허용하는 비율이 20%다. 즉 대립가설로 예측했으나 영 가설이 맞는 경우는 100 개 중에서 20 개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
@@ -155,7 +155,7 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODA3MjQxMCwtMTQxNTUxODM1OCwtMT
+eyJoaXN0b3J5IjpbLTgyNDQ4Mzg1OCwtMTQxNTUxODM1OCwtMT
 M1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzky
 Mzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLT
 EzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgyNjc3
