@@ -109,7 +109,7 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig3.png" width="450">
 </kbd></p>
 
-보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%  즉, false negative를 허용하는 비율이 20%다. 즉 TRUE에서 negative로 잘못 발견되는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
+보통의 연구에서 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20%  즉, false negative를 허용하는 비율이 20%다. 즉 대립 가설로 예측했으는 숫자는 100 개 중에서 20 개(= 100 X 0.2)개 정도가 된다. 이를 역시 그림으로 표시해보자. 
 
 <p align="center"><kbd>
   <img src="https://scientificallysoundorg360.files.wordpress.com/2017/10/fig4.png" width="450">
@@ -154,9 +154,9 @@ p.s. 아마도 p-해킹에 관한 가장 익살스러운 묘사일지 모를 켄
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTEyODQ0MTMsNTkzNDYyNTA3LDE3Mz
-UxNzgyMDIsMTc4MzEyMTU2NSwtMTM4OTg2MDcxNSw5NDY4NTQ1
-NjksNjYxNTgyOTAxLC0xODI2NzcwNDY3LDE1MjEyNDk2MjcsOD
-E1NTc0MzUwLDEzNzM2NzczMTMsLTk2NTM1MTU4LC0xMDU2MjQ0
-ODIxLC0xNjM5NDU4NjA4XX0=
+eyJoaXN0b3J5IjpbNjkzOTEwMjkzLDU5MzQ2MjUwNywxNzM1MT
+c4MjAyLDE3ODMxMjE1NjUsLTEzODk4NjA3MTUsOTQ2ODU0NTY5
+LDY2MTU4MjkwMSwtMTgyNjc3MDQ2NywxNTIxMjQ5NjI3LDgxNT
+U3NDM1MCwxMzczNjc3MzEzLC05NjUzNTE1OCwtMTA1NjI0NDgy
+MSwtMTYzOTQ1ODYwOF19
 -->
