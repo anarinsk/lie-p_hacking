@@ -90,19 +90,19 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 * TRUE = 대립 가설이 존재하는 경우 
 * FALSE = 영 가설이 존재하는 경우 
 
-이렇게 둔다면, false positive의 확률 $\alpha$는 "영 가설이 참인데 이를 기각할 확률"이 된다. 우리가 아는 그 유의 수준(significance level)그대로다.[^4] 앞으로 혼동하지 마시라!(, 라고 하지만 나도 종종 긴가민가한다...) 
+이렇게 둔다면, false positive의 확률 $\alpha$는 "영 가설이 참인데 이를 기각할 확률"이 된다. 우리가 아는 그 유의 수준(significance level)그대로다.[^4] 앞으로 혼동하지 마시라! (,라고 하지만 나도 종종 긴가민가한다...) 
 
 [^4]: 물론 유의 수준이라고 할 때는 가설 검정의 절차에서 허용하는 오차, 라는 의미가 강하다. 잠깐! 이제 오차라고 퉁치지 말고 false positive의 확률이라고 명확하게 말하는 습관을 들여보자. 
 
 # Ioannidis, the destroyer 
 
-이제 하버드 의대에 재직하는 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p해킹을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성하는 경우는 드물었다. 대부분이 알고 있었고 찜찜하게 생각하고 있었지만, 문제로 삼기에는 (기둥 뿌리 무너질까) 망설여 지는 그런 것이 p해킹이 아니었을까. 
+이제 하버드 의대에 재직하는 이오니디스(John P. A. Ioannidis) 선생을 소개해야겠다. 사실 많은 전문가들이 부지불식간에 p&#8722;해킹을 저지르고 혹은 써먹고 있었지만, 이에 대해서 정식으로 반성하는 경우는 드물었다. 대부분이 알고 있었고 찜찜하게 생각하고 있었지만, 문제로 삼기에는 (기둥 뿌리 무너질까) 망설여 지는 그런 것이 p&#8722;해킹이 아니었을까. 
 
 이것이 '우상'이다. 명확한 근거를 제시할 수 없지만 숭배의 유혹을 뿌리치지 쉽지 않은 것 말이다. 
 
 2005년 이오니디스 선생이 우상 파괴를 위한 [폭탄](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124) 하나를 투하했다. 일단 제목부터 도발적이다. "왜 대부분의 출판된 학술 연구의 발견이 가짜인가?" 헐! 논문이 나온 뒤 현재까지 이 논문에 관한 갑론을박이 진행중이다. 좌우간 p해킹 만큼은 이 논문이 제대로 핵심을 보여주었다. 여기서는 [다른 분](https://017/10/04/most-published-findings-are-false/)이 보다 이해하기 좋게 도해한 내용을 소개한다.  
 
-인간은 '가시성'의 동물이다. 사람들은 보통 평범한 것보다는 튀는 걸 먼저 보  특이하고 드러나는 걸 좋아한다. "뭘 당연한 걸 연구 씩이나 하나!" 연구자들이 종종 듣게 되는 이야기다. 과학하는 사람들도 인간이다. 그들 역시 가급적 세상을 놀라게 할 특이한 결과  헤맨다. 
+인간은 '가시성'의 동물이다. 사람들은 보통 평범한 것보다는 특이하고 드러나는 걸 좋아한다. "뭘 당연한 걸 연구 씩이나 하나!" 연구자들이 종종 듣게 되는 이야기다. 과학하는 사람들도 인간이다. 그들 역시 가급적 세상을 놀라게 할 특이한 결과  갈구한다. 
 
 이렇게 가정해보자. 어떤 과학 실험을 1,000 번 할 때(보다 정확하게 표현하면 가설검정을 1,000 번 수행할 때), 그중에서 약 10%에서 신박한 결과가 나타난다고 하자. 그림으로 표시하면 아래와 같다.
 
@@ -177,11 +177,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyMDQ0NDAzLDEyMzUwMTA4OTYsNzE1OT
-AxMzI5LC0xNjMyNDUxMTQ0LC0xMzg4MTU4NTYyLDE1NDQ5OTIx
-NTksLTg3MjgzNTU4LC02MjQyNzUwMzgsMjE0MTkwMzkyNywxMD
-k3NzQ3NTM5LDIwNjAyMzc3NTMsLTQ2NjM3MzcyNSwtMTg3NDU0
-MTk1MSw0ODU1MzExMjMsMTYyMDE1NjcxMSwtMjgyOTYzMjYxLD
-E2MjAxNTY3MTEsMTg1NDIwOTU5NSwtMTQxMDQwODMyMiwtMTQx
-NTUxODM1OF19
+eyJoaXN0b3J5IjpbLTU4ODM3MjcxNywxMjM1MDEwODk2LDcxNT
+kwMTMyOSwtMTYzMjQ1MTE0NCwtMTM4ODE1ODU2MiwxNTQ0OTky
+MTU5LC04NzI4MzU1OCwtNjI0Mjc1MDM4LDIxNDE5MDM5MjcsMT
+A5Nzc0NzUzOSwyMDYwMjM3NzUzLC00NjYzNzM3MjUsLTE4NzQ1
+NDE5NTEsNDg1NTMxMTIzLDE2MjAxNTY3MTEsLTI4Mjk2MzI2MS
+wxNjIwMTU2NzExLDE4NTQyMDk1OTUsLTE0MTA0MDgzMjIsLTE0
+MTU1MTgzNThdfQ==
 -->
