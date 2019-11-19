@@ -131,7 +131,7 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 
 ## 이오니디스의 일침 
 
-1,000 번의 노가다가 끝났다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 한 것 중에서 문제가 있는 경우의 비율(alse ositive port robability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
+1,000 번의 노가다가 끝났다. 이오니디스의 제안은 간단하다. 제대로 했는지 알고 싶다면 positive라고 한 것 중에서 문제가 있는 경우의 비율(False Positive Report Probability)이 얼마나 되는지 계산해보라. 기계 학습을 배운 분들이라면 precision이라는 지표를 1에서 뺀 값과 동일하다. 
 
 $$
 \begin{aligned}
@@ -146,7 +146,7 @@ $$
 \text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + 100 \times (1-0.2)} = 0.36
 $$
 
-생각보다 높다! 유의수준, 즉 $\alpha$ 5%가 제법 안전해 보였을지 모겠다. 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더  수도 있다. 
+생각보다 높다! 5% 유의수준, 즉 $\alpha=0.05$가 제법 안전해 보였을지 모겠다. 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더  수도 있다. 
 
  보통 $(1-\beta)$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이때 false negative가 true positive의 숫자를 잡아먹게 되고, 이에  FPRP는 0.69로 올라간다. 즉, 
 
@@ -181,11 +181,11 @@ p.s. 아마도 p&#8722;-해킹에 관한 가장 익살스러운 묘사일지 모
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI0NTExNDQsLTEzODgxNTg1NjIsMT
-U0NDk5MjE1OSwtODcyODM1NTgsLTYyNDI3NTAzOCwyMTQxOTAz
-OTI3LDEwOTc3NDc1MzksMjA2MDIzNzc1MywtNDY2MzczNzI1LC
-0xODc0NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC0yODI5
-NjMyNjEsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEwNDA4Mz
-IyLC0xNDE1NTE4MzU4LC0xMzU0Njc2MjYwLC0xMDQxMTIxMzQ4
-LDE2MzQyNzUxNl19
+eyJoaXN0b3J5IjpbNzE1OTAxMzI5LC0xNjMyNDUxMTQ0LC0xMz
+g4MTU4NTYyLDE1NDQ5OTIxNTksLTg3MjgzNTU4LC02MjQyNzUw
+MzgsMjE0MTkwMzkyNywxMDk3NzQ3NTM5LDIwNjAyMzc3NTMsLT
+Q2NjM3MzcyNSwtMTg3NDU0MTk1MSw0ODU1MzExMjMsMTYyMDE1
+NjcxMSwtMjgyOTYzMjYxLDE2MjAxNTY3MTEsMTg1NDIwOTU5NS
+wtMTQxMDQwODMyMiwtMTQxNTUxODM1OCwtMTM1NDY3NjI2MCwt
+MTA0MTEyMTM0OF19
 -->
