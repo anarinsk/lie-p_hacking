@@ -170,7 +170,7 @@ $$.
 
 자연과학이나 공학이 이렇다면 사회과학은 오죽할까. 입수한 자료를 이렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p&#8722;-해킹을 최대한 막을 수 있는 방책은 무엇일까? 이는 다음 기회에 다시 이야기하도록 하자.
 
-p.s. 아마도 p&#8722;-해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 만화를 이해하실 수 있다면 이 글의 목적은 달성! 
+p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 만화를 이해하실 수 있다면 이 글의 목적은 달성! 
 
 <p align="center"><kbd>
   <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/significant.png?raw=true" width="500">
@@ -181,11 +181,11 @@ p.s. 아마도 p&#8722;-해킹에 관한 가장 익살스러운 묘사일지 모
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1OTAxMzI5LC0xNjMyNDUxMTQ0LC0xMz
-g4MTU4NTYyLDE1NDQ5OTIxNTksLTg3MjgzNTU4LC02MjQyNzUw
-MzgsMjE0MTkwMzkyNywxMDk3NzQ3NTM5LDIwNjAyMzc3NTMsLT
-Q2NjM3MzcyNSwtMTg3NDU0MTk1MSw0ODU1MzExMjMsMTYyMDE1
-NjcxMSwtMjgyOTYzMjYxLDE2MjAxNTY3MTEsMTg1NDIwOTU5NS
-wtMTQxMDQwODMyMiwtMTQxNTUxODM1OCwtMTM1NDY3NjI2MCwt
-MTA0MTEyMTM0OF19
+eyJoaXN0b3J5IjpbMTIzNTAxMDg5Niw3MTU5MDEzMjksLTE2Mz
+I0NTExNDQsLTEzODgxNTg1NjIsMTU0NDk5MjE1OSwtODcyODM1
+NTgsLTYyNDI3NTAzOCwyMTQxOTAzOTI3LDEwOTc3NDc1MzksMj
+A2MDIzNzc1MywtNDY2MzczNzI1LC0xODc0NTQxOTUxLDQ4NTUz
+MTEyMywxNjIwMTU2NzExLC0yODI5NjMyNjEsMTYyMDE1NjcxMS
+wxODU0MjA5NTk1LC0xNDEwNDA4MzIyLC0xNDE1NTE4MzU4LC0x
+MzU0Njc2MjYwXX0=
 -->
