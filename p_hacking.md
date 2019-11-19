@@ -20,7 +20,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 # 사실 조건과 예측 
 
-p해킹의 문제를 펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류표는 혼동 행렬(confusion matrix)이라고 부르기도 한다. 
+p&#8722;해킹의 문제를 파헤치기 전에 간단한 분류표 먼저 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류표는 혼동 행렬(confusion matrix)이라고 부르기도 한다. 
 
 $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 $x$의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다. 
 
@@ -179,11 +179,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MDg5Nzk1LDEyMzUwMTA4OTYsNzE1OT
-AxMzI5LC0xNjMyNDUxMTQ0LC0xMzg4MTU4NTYyLDE1NDQ5OTIx
-NTksLTg3MjgzNTU4LC02MjQyNzUwMzgsMjE0MTkwMzkyNywxMD
-k3NzQ3NTM5LDIwNjAyMzc3NTMsLTQ2NjM3MzcyNSwtMTg3NDU0
-MTk1MSw0ODU1MzExMjMsMTYyMDE1NjcxMSwtMjgyOTYzMjYxLD
-E2MjAxNTY3MTEsMTg1NDIwOTU5NSwtMTQxMDQwODMyMiwtMTQx
-NTUxODM1OF19
+eyJoaXN0b3J5IjpbMTY1MDYxMTExNiwxMjM1MDEwODk2LDcxNT
+kwMTMyOSwtMTYzMjQ1MTE0NCwtMTM4ODE1ODU2MiwxNTQ0OTky
+MTU5LC04NzI4MzU1OCwtNjI0Mjc1MDM4LDIxNDE5MDM5MjcsMT
+A5Nzc0NzUzOSwyMDYwMjM3NzUzLC00NjYzNzM3MjUsLTE4NzQ1
+NDE5NTEsNDg1NTMxMTIzLDE2MjAxNTY3MTEsLTI4Mjk2MzI2MS
+wxNjIwMTU2NzExLDE4NTQyMDk1OTUsLTE0MTA0MDgzMjIsLTE0
+MTU1MTgzNThdfQ==
 -->
