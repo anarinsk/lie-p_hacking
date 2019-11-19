@@ -10,7 +10,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 어느 누가 실험을 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때에서는 기본적으로 같은 결과가 나와야 한다는 것을 뜻한다.
 
- 이런 맥락에서라면 이 말이 이해가 간다. 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때에도하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은수상한 로널드 코즈가 했다는 이야기 중에서 유명한 말이 하나 있다. 
+ 이런 맥락에서라면 이 말이 이해가 간다 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때에도하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은수상한 로널드 코즈가 했다는 이야기 중에서 유명한 말이 하나 있다. 
 
 > If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
 
@@ -143,7 +143,7 @@ $$
 위 식에서 $N_F$는 FALSE에 속하는 숫자, $N_T$는 TRUE에 속하는 숫자를 각각 의미한다. 앞서 예시했던 문제 계산해보자. 
 
 $$
-\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + 10010 \times (1-0.2)10 } = 0.36
+\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + 100 \times (1-0.2)} = \dfrac{45}{45 + 80} = 0.36
 $$
 
 생각보다 높다! 유의수준, 즉 $\alpha$ 5%가 제법 안전해 보였을지 모겠다. 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더  수도 있다. 
@@ -181,11 +181,11 @@ p.s. 아마도 p&#8722;-해킹에 관한 가장 익살스러운 묘사일지 모
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNjE1NzYsLTEzODgxNTg1NjIsMTU0ND
-k5MjE1OSwtODcyODM1NTgsLTYyNDI3NTAzOCwyMTQxOTAzOTI3
-LDEwOTc3NDc1MzksMjA2MDIzNzc1MywtNDY2MzczNzI1LC0xOD
-c0NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC0yODI5NjMy
-NjEsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEwNDA4MzIyLC
-0xNDE1NTE4MzU4LC0xMzU0Njc2MjYwLC0xMDQxMTIxMzQ4LDE2
-MzQyNzUxNl19
+eyJoaXN0b3J5IjpbLTIyOTY0NzE1NCwtMTM4ODE1ODU2MiwxNT
+Q0OTkyMTU5LC04NzI4MzU1OCwtNjI0Mjc1MDM4LDIxNDE5MDM5
+MjcsMTA5Nzc0NzUzOSwyMDYwMjM3NzUzLC00NjYzNzM3MjUsLT
+E4NzQ1NDE5NTEsNDg1NTMxMTIzLDE2MjAxNTY3MTEsLTI4Mjk2
+MzI2MSwxNjIwMTU2NzExLDE4NTQyMDk1OTUsLTE0MTA0MDgzMj
+IsLTE0MTU1MTgzNTgsLTEzNTQ2NzYyNjAsLTEwNDExMjEzNDgs
+MTYzNDI3NTE2XX0=
 -->
