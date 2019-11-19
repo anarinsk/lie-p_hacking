@@ -94,7 +94,7 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 * TRUE = 대립 가설이 존재하는 경우 
 * FALSE = 영 가설이 존재하는 경우 
 
-이렇게 둔다면, false positive의 확률 $\alpha$는 "영 가설이 참인데 이를 기각할 확률"이 된다. 우리가 어는 유의수준 그대로다. 혼동하지 마시라!(, 라고 하지만 나도 종종 긴가민가한다...) 
+이렇게 둔다면, false positive의 확률 $\alpha$는 "영 가설이 참인데 이를 기각할 확률"이 된다. 우리가 아는 그 유의수준 그대로다. 앞으로 혼동하지 마시라!(, 라고 하지만 나도 종종 긴가민가한다...) 
 
 # Ioannidis, the destroyer 
 
@@ -176,11 +176,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjM3MzcyNSwtMTg3NDU0MTk1MSw0OD
-U1MzExMjMsMTYyMDE1NjcxMSwtMjgyOTYzMjYxLDE2MjAxNTY3
-MTEsMTg1NDIwOTU5NSwtMTQxMDQwODMyMiwtMTQxNTUxODM1OC
-wtMTM1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcw
-MzkyMzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1Nj
-UsLTEzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMSwtMTgy
-Njc3MDQ2N119
+eyJoaXN0b3J5IjpbMjA2MDIzNzc1MywtNDY2MzczNzI1LC0xOD
+c0NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC0yODI5NjMy
+NjEsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEwNDA4MzIyLC
+0xNDE1NTE4MzU4LC0xMzU0Njc2MjYwLC0xMDQxMTIxMzQ4LDE2
+MzQyNzUxNiw0NzAzOTIzOTYsNTkzNDYyNTA3LDE3MzUxNzgyMD
+IsMTc4MzEyMTU2NSwtMTM4OTg2MDcxNSw5NDY4NTQ1NjksNjYx
+NTgyOTAxXX0=
 -->
