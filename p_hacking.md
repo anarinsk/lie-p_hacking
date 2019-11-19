@@ -107,22 +107,19 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 이렇게 가정해보자. 어떤 과학 실험을 1,000 번 할 때(보다 정확하게 표현하면 가설검정을 1,000 번 수행할 때), 그중에서 약 10%에서 신박한 결과가 나타난다고 하자. 그림으로 표시하면 아래와 같다.
 
 <p align="center"><kbd>
-  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig2.png?raw=trueitconrilepcom///fig2.png" width="450">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig2.png?raw=true" width="450">
 </kbd></p>
 
 이제 업계의 관행대로 1종 오류를 5%로 두자$\alpha = 0.05$). 이는 false positive의 비율, 즉 영 가설이 맞는데 이를 기각할 확률을 5%까지 허용한다는 뜻이다. 1,000 번 실험라면 효과가 없는 900 번 중에서 약 45 번(= 900 X 0.05) 효과가 있는 것으로 보고이다. 아래 그림의 붉은 색에 해당한다. 
 
 <p align="center"><kbd>
-  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig3.png?raw=trueitca" width="450">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig3.png?raw=true" width="450">
 </kbd></p>
 
-보통의 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20% 라고 하자. 즉, false negative를 허용하는 비율, 즉 영 가설로 예측했으나 대립 가설이 맞는 100 개 중에서 20 개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 아래 그림에서 녹색에 해당한다. 이제 혼동 행렬에서 모든 경우를 다 표기했음을 확인해두자. 
+보통의 $\beta$, 즉 2종 오류는 명시적으로 표기되지 않는다. 대략 업계의 관행이 20% 라고 하자. 즉, false negative를 허용하는 비율, 즉 영 가설로 예측했으나 대립 가설이 맞는 100 개 중에서 20 개(= 100 X 0.2) 정도가 된다. 이를 역시 그림으로 표시해보자. 아래 그림에서 녹색에 해당한다. 이제 혼동 행렬에서 모든 경우를 다 표기했음을 확인해두자.
 
 <p align="center"><kbd>
-  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig4.png?raw=true
-
-<p align="center"><kbd>
-  <img src="https://" width="450">
+  <img src="https://github.com/anarinsk/lie-p_hacking/blob/master/assets/images/fig4.png?raw=true width="450">
 </kbd></p>
 
 ## 이오니디스의 일침 
@@ -177,11 +174,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODM3MjcxNywxMjM1MDEwODk2LDcxNT
-kwMTMyOSwtMTYzMjQ1MTE0NCwtMTM4ODE1ODU2MiwxNTQ0OTky
-MTU5LC04NzI4MzU1OCwtNjI0Mjc1MDM4LDIxNDE5MDM5MjcsMT
-A5Nzc0NzUzOSwyMDYwMjM3NzUzLC00NjYzNzM3MjUsLTE4NzQ1
-NDE5NTEsNDg1NTMxMTIzLDE2MjAxNTY3MTEsLTI4Mjk2MzI2MS
-wxNjIwMTU2NzExLDE4NTQyMDk1OTUsLTE0MTA0MDgzMjIsLTE0
-MTU1MTgzNThdfQ==
+eyJoaXN0b3J5IjpbMzk0MTgwMjUxLC01ODgzNzI3MTcsMTIzNT
+AxMDg5Niw3MTU5MDEzMjksLTE2MzI0NTExNDQsLTEzODgxNTg1
+NjIsMTU0NDk5MjE1OSwtODcyODM1NTgsLTYyNDI3NTAzOCwyMT
+QxOTAzOTI3LDEwOTc3NDc1MzksMjA2MDIzNzc1MywtNDY2Mzcz
+NzI1LC0xODc0NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC
+0yODI5NjMyNjEsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEw
+NDA4MzIyXX0=
 -->
