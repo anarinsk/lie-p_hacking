@@ -157,7 +157,7 @@ $$
 \text{FPRP} = \dfrac{990 \times 0.05}{990 \times 0.05 + 10 \times (1-0.6) } \approx 0.93
 $$
 
-앞서 과학자들도 사람인지라서 신기한 것을 추구한다고 말했다. 신기한 것은 관찰되기도 그 검증되기 힘들다. 해당 가설을 검정한다면 대부분 negative로 예측될 것이다. 어찌어째해서 positive를 발견했다면 "유레카!"를 외치고 싶을 것이다. 이오니디스 선생은 우쭐하고 감탄하기에 앞서 의심이 먼저다, 라는 간단한 말씀을 하고 계실 뿐이다. 
+앞서 과학자들도 사람인지라서 신기한 것을 추구한다고 말했다. 신기한 것은 관찰되거나 검증되기 힘들다. 해당 가설을 검정한다면 대부분 negative로 예측될 것이다. 어찌어째해서 positive를 발견했다면 "유레카!"를 외치고 싶을 것이다. 이오니디스 선생은 우쭐하고 감탄하기에 앞서 의심이 먼저다, 라는 간단한 말씀을 하고 계실 뿐이다. 
 
 # 정리 
 
@@ -178,11 +178,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI2MjU4MzQsLTYyNDI3NTAzOCwyMT
-QxOTAzOTI3LDEwOTc3NDc1MzksMjA2MDIzNzc1MywtNDY2Mzcz
-NzI1LC0xODc0NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC
-0yODI5NjMyNjEsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEw
-NDA4MzIyLC0xNDE1NTE4MzU4LC0xMzU0Njc2MjYwLC0xMDQxMT
-IxMzQ4LDE2MzQyNzUxNiw0NzAzOTIzOTYsNTkzNDYyNTA3LDE3
-MzUxNzgyMDJdfQ==
+eyJoaXN0b3J5IjpbLTg3MjgzNTU4LC02MjQyNzUwMzgsMjE0MT
+kwMzkyNywxMDk3NzQ3NTM5LDIwNjAyMzc3NTMsLTQ2NjM3Mzcy
+NSwtMTg3NDU0MTk1MSw0ODU1MzExMjMsMTYyMDE1NjcxMSwtMj
+gyOTYzMjYxLDE2MjAxNTY3MTEsMTg1NDIwOTU5NSwtMTQxMDQw
+ODMyMiwtMTQxNTUxODM1OCwtMTM1NDY3NjI2MCwtMTA0MTEyMT
+M0OCwxNjM0Mjc1MTYsNDcwMzkyMzk2LDU5MzQ2MjUwNywxNzM1
+MTc4MjAyXX0=
 -->
