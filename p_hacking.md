@@ -163,7 +163,7 @@ $$
 
 이런 면에서 이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면 의심부터 하라. 과학을 회의하라는 것이 아니다.  과학의 권위를 거부할 필요까지 없다. 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락을 살피라는 것이다. p&#8722;해킹이 출세욕에 사로 잡힌 과학자의 의도적 왜곡에서 비롯할 수도 있다. 하지만 과학을 향한 '순수한' 열정의 원하지 않은 산물일지도 모른다. 
 
-자연과학이나 공학이 이렇다면 사회과학은 오죽할까. 입수한 자료를 이렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p&#8722;해킹을 최대한 막을 수 있는 방책은 무엇일까? 이는 다음 기회에 다시 이야기하도록 하자
+자연과학이나 공학이 이렇다면 사회과학은 오죽할까. 입수한 자료를 이렇게 저렇게 비틀고 고문해서 원하는 결론으로 이끄는 일이 그리 어렵지는 않을 터... 그렇다면, p&#8722;해킹을 최대한 막을 수 있는 방책은 무엇일까? 이는 다음 기회에 다시 이야기하도록 하자.
 
 p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모를 켄달 먼로의 xkcd 만화를 감상하며 글을 접는다. 만화를 이해하실 수 있다면 이 글의 목적은 달성! 
 
@@ -176,11 +176,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Nzc0NzUzOSwyMDYwMjM3NzUzLC00Nj
-YzNzM3MjUsLTE4NzQ1NDE5NTEsNDg1NTMxMTIzLDE2MjAxNTY3
-MTEsLTI4Mjk2MzI2MSwxNjIwMTU2NzExLDE4NTQyMDk1OTUsLT
-E0MTA0MDgzMjIsLTE0MTU1MTgzNTgsLTEzNTQ2NzYyNjAsLTEw
-NDExMjEzNDgsMTYzNDI3NTE2LDQ3MDM5MjM5Niw1OTM0NjI1MD
-csMTczNTE3ODIwMiwxNzgzMTIxNTY1LC0xMzg5ODYwNzE1LDk0
-Njg1NDU2OV19
+eyJoaXN0b3J5IjpbMjE0MTkwMzkyNywxMDk3NzQ3NTM5LDIwNj
+AyMzc3NTMsLTQ2NjM3MzcyNSwtMTg3NDU0MTk1MSw0ODU1MzEx
+MjMsMTYyMDE1NjcxMSwtMjgyOTYzMjYxLDE2MjAxNTY3MTEsMT
+g1NDIwOTU5NSwtMTQxMDQwODMyMiwtMTQxNTUxODM1OCwtMTM1
+NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MTYsNDcwMzkyMz
+k2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMxMjE1NjUsLTEz
+ODk4NjA3MTVdfQ==
 -->
