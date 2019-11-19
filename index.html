@@ -36,7 +36,7 @@ Also posted at <a href="https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.
 <p><a href="https://projects.fivethirtyeight.com/p-hacking/">Hack Your Way To Scientific Glory</a></p>
 <p>같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 ‘과학적’ 결론을 찾을 수 있다! 이것이 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준’에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광에 기대서 원하는 결론을 얻기 위해서 데이터를 고문하는 것이 p−해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 무척 다양해졌다.</p>
 <h1 id="사실-조건과-예측">사실 조건과 예측</h1>
-<p>p해킹의 문제를 펴보파헤치기 전에 간단한 분류표 먼저 보자. 표부터 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류표는 혼동 행렬(confusion matrix)이라고 부르기도 한다.</p>
+<p>p−해킹의 문제를 파헤치기 전에 간단한 분류표 먼저 보자. 아마도 기계학습 혹은 통계학을 공부한 사람들이라면 한번 쯤은 봤을 법한 분류표다. 이 분류표는 혼동 행렬(confusion matrix)이라고 부르기도 한다.</p>
 <p><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">x</span></span></span></span></span> 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만 지닌다. 이때 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">x</span></span></span></span></span>의 상태에 관해 예측을 하고 예측이 맞았는지 여부를 확인하기 위해서는 다음의 네 가지 경우를 살피면 된다.</p>
 
 <table>
@@ -64,8 +64,7 @@ Also posted at <a href="https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.
 <li>positive, negative 예측이 맞는 경우: true positive, true negative</li>
 <li>positive, negative 예측이 틀리는 경우: false positive (오탐), false negative (미탐)</li>
 </ul>
-<p>예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 <a href="https://en.wikipedia.org/wiki/Precision_and_recall">성과 지표</a>를 도출할 수 의 관심사는 아니니 일단 넘어가자.</p>
-<p>그리고 여기서 true, false는 형용사다.<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></p>
+<p>예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 <a href="https://en.wikipedia.org/wiki/Precision_and_recall">성과 지표</a>를 도출할 수 있다. 흥미롭고 중요한 주제지만 현재의 관심사는 아니니 일단 넘어가자. 그리고 여기서 true, false는 형용사다.<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></p>
 <h1 id="종-오류와-2종-오류">1종 오류와 2종 오류</h1>
 <p>통계학을 공부한 사람은 사실 이 매트릭스를 한번은 봤을 것이다. 통계학에서 제일 안 외워지는 것 중 하나가 1종 오류(type I error), 2종 오류(type II error)다.</p>
 
