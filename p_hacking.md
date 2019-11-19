@@ -8,9 +8,9 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 요즘 p&#8722;해킹이란 말을 심심치 않게 들을 수 있다. 혹자는 "재현성"의 위기라고도 한다. 여기서 재현성이란 정확하게 표현하면 "연구 재현성research reproducibility"이다. 즉 어떤 연구 결과물을 해당 연구를 수행한 연구자 뿐 아니라 다른 사람이 이를 반복해도 같은 혹은  거의 같은충분히 비슷한 결과가 나와야 한다는 것이다.  
 
-자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 어느 누가 실험을 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때에서는 기본적으로 같은 결과가 나와야 한다는 것을 뜻한다. .
+자연과학이나 공학에서 연구 재현성은 해당 연구를 수행한 사람 이외에 어느 누가 실험을 하더라도 연구가 제시한 조건 및 세부 사항이 갖춰졌을 때에서는 기본적으로 같은 결과가 나와야 한다는 것을 뜻한다.
 
- 이런 맥락에서라면 이 말이 이해가 간다 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때에도하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은수상한 로널드 코즈가 했다는 이야기 중에서 유명한 말이 하나 있다. 
+ 이런 맥락에서라면 이 말이 이해가 간다. 데이터를 다루는 분야에서 재현성이란 무엇일까? 데이터는 어차피 한번 생성되면 추가되거나 수정되지 않는 이상 고정된다. 이렇게 고정된 데이터를 분석할 때에도하는 데 재현성이 문제가 될 수 있을까? 노벨 경제학상을 받은수상한 로널드 코즈가 했다는 이야기 중에서 유명한 말이 하나 있다. 
 
 > If you torture the data enough, nature will always confess.  데이터를 충분히 고문하면,  자연은 언제나 바른 말을 하게 될 것이다. 
 
@@ -181,7 +181,7 @@ p.s. 아마도 p&#8722;-해킹에 관한 가장 익살스러운 묘사일지 모
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk5MDI0ODYsMTU0NDk5MjE1OSwtOD
+eyJoaXN0b3J5IjpbLTEzODgxNTg1NjIsMTU0NDk5MjE1OSwtOD
 cyODM1NTgsLTYyNDI3NTAzOCwyMTQxOTAzOTI3LDEwOTc3NDc1
 MzksMjA2MDIzNzc1MywtNDY2MzczNzI1LC0xODc0NTQxOTUxLD
 Q4NTUzMTEyMywxNjIwMTU2NzExLC0yODI5NjMyNjEsMTYyMDE1
