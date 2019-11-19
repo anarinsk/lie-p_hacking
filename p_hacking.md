@@ -34,9 +34,7 @@ $x$ 라는 현상은 존재하거나 존재하지 않거나 두 가지 상태만
   -  positive, negative 예측이 맞는 경우: true positive, true negative 
   -  positive, negative 예측이 틀리는 경우: false positive (오탐), false negative (미탐) 
 
-예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 [성과 지표](https://en.wikipedia.org/wiki/Precision_and_recall)를 도출할 수 의 관심사는 아니니 일단 넘어가자. 
-
-그리고 여기서 true, false는 형용사다.[^3] 
+예측 결과(가설 검정의 결과)가 있을 때 당연히 true positive와 true negative의 비율을를 가급적 높이는 것이 당연히 좋다. 예측은 정확할수록 좋은 것이니까. 이 매트릭스에서 예측의 설명력을 측정하는 각종 [성과 지표](https://en.wikipedia.org/wiki/Precision_and_recall)를 도출할 수 있다. 흥미롭고 중요한 주제지만 현재의 관심사는 아니니 일단 넘어가자. 그리고 여기서 true, false는 형용사다.[^3] 
 
 [^3]: 이를 한번 새겨두면 말을 외울 때 쓸모가 있다. 즉, true는 뒤에 따라오는 말이 맞는 것을 지칭한다. true positive, true negative는 positive, negative의 판단이 맞았다는 이야기다. false positive는 positive 판단이 틀렸다는 이야기다. 즉, 원래 FALSE인데 TRUE로 판정한 것이다. 따라서 "오탐"이다. false negative는 negative 판단이 틀렸다는 뜻이다. 즉, 원래 TRUE인데 FALSE로 판정한 것이고, "미탐"이다. 
 
@@ -179,11 +177,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDYxMTExNiwxMjM1MDEwODk2LDcxNT
-kwMTMyOSwtMTYzMjQ1MTE0NCwtMTM4ODE1ODU2MiwxNTQ0OTky
-MTU5LC04NzI4MzU1OCwtNjI0Mjc1MDM4LDIxNDE5MDM5MjcsMT
-A5Nzc0NzUzOSwyMDYwMjM3NzUzLC00NjYzNzM3MjUsLTE4NzQ1
-NDE5NTEsNDg1NTMxMTIzLDE2MjAxNTY3MTEsLTI4Mjk2MzI2MS
-wxNjIwMTU2NzExLDE4NTQyMDk1OTUsLTE0MTA0MDgzMjIsLTE0
-MTU1MTgzNThdfQ==
+eyJoaXN0b3J5IjpbLTE1ODUzMzUxMjksMTIzNTAxMDg5Niw3MT
+U5MDEzMjksLTE2MzI0NTExNDQsLTEzODgxNTg1NjIsMTU0NDk5
+MjE1OSwtODcyODM1NTgsLTYyNDI3NTAzOCwyMTQxOTAzOTI3LD
+EwOTc3NDc1MzksMjA2MDIzNzc1MywtNDY2MzczNzI1LC0xODc0
+NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC0yODI5NjMyNj
+EsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEwNDA4MzIyLC0x
+NDE1NTE4MzU4XX0=
 -->
