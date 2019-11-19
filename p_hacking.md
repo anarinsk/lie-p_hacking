@@ -143,7 +143,7 @@ $$
 위 식에서 $N_F$는 FALSE에 속하는 숫자, $N_T$는 TRUE에 속하는 숫자를 각각 의미한다. 앞서 예시했던 문제 계산해보자. 
 
 $$
-\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + 10010 \times (1-0.2)10 } = \dfrac{45}{45 + 80} = 0.36
+\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + 10010 \times (1-0.2)10 } = 0.36
 $$
 
 생각보다 높다! 유의수준, 즉 $\alpha$ 5%가 제법 안전해 보였을지 모겠다. 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더  수도 있다. 
@@ -181,11 +181,11 @@ p.s. 아마도 p&#8722;-해킹에 관한 가장 익살스러운 묘사일지 모
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODgxNTg1NjIsMTU0NDk5MjE1OSwtOD
-cyODM1NTgsLTYyNDI3NTAzOCwyMTQxOTAzOTI3LDEwOTc3NDc1
-MzksMjA2MDIzNzc1MywtNDY2MzczNzI1LC0xODc0NTQxOTUxLD
-Q4NTUzMTEyMywxNjIwMTU2NzExLC0yODI5NjMyNjEsMTYyMDE1
-NjcxMSwxODU0MjA5NTk1LC0xNDEwNDA4MzIyLC0xNDE1NTE4Mz
-U4LC0xMzU0Njc2MjYwLC0xMDQxMTIxMzQ4LDE2MzQyNzUxNiw0
-NzAzOTIzOTZdfQ==
+eyJoaXN0b3J5IjpbMjMxNjE1NzYsLTEzODgxNTg1NjIsMTU0ND
+k5MjE1OSwtODcyODM1NTgsLTYyNDI3NTAzOCwyMTQxOTAzOTI3
+LDEwOTc3NDc1MzksMjA2MDIzNzc1MywtNDY2MzczNzI1LC0xOD
+c0NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC0yODI5NjMy
+NjEsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEwNDA4MzIyLC
+0xNDE1NTE4MzU4LC0xMzU0Njc2MjYwLC0xMDQxMTIxMzQ4LDE2
+MzQyNzUxNl19
 -->
