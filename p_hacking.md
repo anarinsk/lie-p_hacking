@@ -16,7 +16,7 @@ Also posted at [here](https://danbi-ncsoft.github.io/etc/2018/10/04/p-hacking.ht
 
 [Hack Your Way To Scientific Glory](https://projects.fivethirtyeight.com/p-hacking/)
 
-같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 이것이 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광을 빌리게 원하는 결론을 과학적으로 얻기 위해서 데이터를 고문하는 것이 p해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 다양하다. 
+같은 데이터 셋에 대해서 여러가지 조건의 붙여서(즉 데이터를 고문해서) 당신이 원하는 '과학적' 결론을 찾을 수 있다! 이것이 왜 과학적인가? 4번 항목의 유의 확률을 보면 된다. '업계의 표준'에 따라서 이 녀석이 0.05보다 작으면 나의 결론은 과학적이다! 이렇듯 과학의 후광에 기대서 원하는 결론을 얻기 위해서 데이터를 고문하는 것이 p&#8722;해킹이다. 사실 위 고문 사례는 무척 순진한 경우에 해당한다. 빅데이터와 컴퓨팅 자원이 저렴한 오늘날 데이터를 고문하는 데 동원할 수 있는 방법 또한 무척 다양해졌다. 
 
 # 사실 조건과 예측 
 
@@ -179,11 +179,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzkwODEwNSwxMjM1MDEwODk2LDcxNT
-kwMTMyOSwtMTYzMjQ1MTE0NCwtMTM4ODE1ODU2MiwxNTQ0OTky
-MTU5LC04NzI4MzU1OCwtNjI0Mjc1MDM4LDIxNDE5MDM5MjcsMT
-A5Nzc0NzUzOSwyMDYwMjM3NzUzLC00NjYzNzM3MjUsLTE4NzQ1
-NDE5NTEsNDg1NTMxMTIzLDE2MjAxNTY3MTEsLTI4Mjk2MzI2MS
-wxNjIwMTU2NzExLDE4NTQyMDk1OTUsLTE0MTA0MDgzMjIsLTE0
-MTU1MTgzNThdfQ==
+eyJoaXN0b3J5IjpbNTY4MDg5Nzk1LDEyMzUwMTA4OTYsNzE1OT
+AxMzI5LC0xNjMyNDUxMTQ0LC0xMzg4MTU4NTYyLDE1NDQ5OTIx
+NTksLTg3MjgzNTU4LC02MjQyNzUwMzgsMjE0MTkwMzkyNywxMD
+k3NzQ3NTM5LDIwNjAyMzc3NTMsLTQ2NjM3MzcyNSwtMTg3NDU0
+MTk1MSw0ODU1MzExMjMsMTYyMDE1NjcxMSwtMjgyOTYzMjYxLD
+E2MjAxNTY3MTEsMTg1NDIwOTU5NSwtMTQxMDQwODMyMiwtMTQx
+NTUxODM1OF19
 -->
