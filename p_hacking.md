@@ -139,7 +139,7 @@ $$
 \text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + 100 \times (1-0.2)} = 0.36
 $$
 
-생각보다 높다! 5% 유의수준, 즉 $\alpha=0.05$가 제법 안전해 보였을지 모겠다. 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더  수도 있다. 
+생각보다 높다! 5% 유의수준, 즉 $\alpha=0.05$가 제법 안전해 보였을지 모르겠다. 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더 나빠질 수도 있다. 
 
  보통 $(1-\beta)$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이때 false negative가 true positive의 숫자를 잡아먹게 되고, 이에  FPRP는 0.69로 올라간다. 즉, 
 
@@ -174,11 +174,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzYwODE3MywtNTg4MzcyNzE3LDEyMz
-UwMTA4OTYsNzE1OTAxMzI5LC0xNjMyNDUxMTQ0LC0xMzg4MTU4
-NTYyLDE1NDQ5OTIxNTksLTg3MjgzNTU4LC02MjQyNzUwMzgsMj
-E0MTkwMzkyNywxMDk3NzQ3NTM5LDIwNjAyMzc3NTMsLTQ2NjM3
-MzcyNSwtMTg3NDU0MTk1MSw0ODU1MzExMjMsMTYyMDE1NjcxMS
-wtMjgyOTYzMjYxLDE2MjAxNTY3MTEsMTg1NDIwOTU5NSwtMTQx
-MDQwODMyMl19
+eyJoaXN0b3J5IjpbNTA5Njg5NjMxLC01ODgzNzI3MTcsMTIzNT
+AxMDg5Niw3MTU5MDEzMjksLTE2MzI0NTExNDQsLTEzODgxNTg1
+NjIsMTU0NDk5MjE1OSwtODcyODM1NTgsLTYyNDI3NTAzOCwyMT
+QxOTAzOTI3LDEwOTc3NDc1MzksMjA2MDIzNzc1MywtNDY2Mzcz
+NzI1LC0xODc0NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC
+0yODI5NjMyNjEsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEw
+NDA4MzIyXX0=
 -->
