@@ -153,11 +153,11 @@ $$
 \text{FPRP} = \dfrac{990 \times 0.05}{990 \times 0.05 + 10 \times (1-0.6) } \approx 0.93
 $$. 
 
-앞서 과학자들도 사람인지라서 신기한 것을 추구한다고 말했다. 신기한 것은 관찰되거나 검증되기 힘들다. 해당 가설을 검정한다면 대부분 negative로 예측될 것이다. 어찌어째해서 positive를 발견했다면 "유레카!"를 외치고  이다. 이오니디스 선생은 우쭐하고 감탄하기에 앞서 의심이 먼저다, 라는 간단한 말씀을 하고 계실 뿐신 것이의 하지 않은  다. 
+앞서 과학자들도 사람인지라서 신기한 것을 추구한다고 말했다. 신기한 것은 관찰되거나 검증되기 힘들다. 해당 가설을 검정한다면 대부분 negative로 예측될 것이다. 어찌어째해서 positive를 발견했다면 "유레카!"를 외치고  싶을 것이다. 이오니디스 선생은 우쭐하고 감탄하기에 앞서 먼저 의심하라고 충고하고 있다. 
 
 # 정리 
 
-이오니디스 선생은 엄밀하게 진행된 것처럼 보이 한 의도 없이 진행된 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 지적했다. 2종 오류를 명확하게 고려하지 않을 경우 신박함을 좇는 과학자의 자연스러운 '욕망'과 결합해 아주 나쁜 결과를 초래할 수 있다. 과학자는 '객관적 진실'을 추구하지만 연구 과정 및 보고 과정까지 객관적이기는 어렵다. 여기에는 과학자의 욕망이 개입하고 이에 따라서 보다 눈에 띄는 신박한 연구를 추구하려는 유인이 자연스럽게 생겨기 마련이다. 
+이오니디스 선생은 엄밀하게 진행된 것처럼 보이는 통계적 연구조차도 상당히 높은 FPRP를 지닐 수 있음을 지적했다. 2종 오류를 명확하게 고려하지 않을 경우 신박함을 좇는 과학자의 자연스러운 '욕망'과 결합해 아주 나쁜 결과를 초래할 수 있다. 과학자는 '객관적 진실'을 추구하지만 연구 과정 및 보고 과정까지 객관적이기는 어렵다. 여기에는 과학자의 욕망이 개입하고 이에 따라서 보다 눈에 띄는 신박한 연구를 추구하려는 유인이 자연스럽게 생겨기 마련이다. 
 
 이런 면에서 이오니디스 선생은 충고는 상식적이다. 보기 힘든 신박한 것을 발견했다면 의심부터 하라. 과학을 회의하라는 것이 아니다.  과학의 권위를 거부할 필요 없다. 과학자의 '유인incentive'을 의심해보라는 것이다. 과학이 행해지는 인간적 맥락을 살피라는 것이다. p&#8722;해킹이 출세욕에 사로 잡힌 과학자의 의도적 왜곡에서 비롯할  수도 있다. 하지만 과학을 향한 '순수한' 열정의 원하지 않은 산물일지도 모른다. 
 
@@ -174,11 +174,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5Njg5NjMxLC01ODgzNzI3MTcsMTIzNT
-AxMDg5Niw3MTU5MDEzMjksLTE2MzI0NTExNDQsLTEzODgxNTg1
-NjIsMTU0NDk5MjE1OSwtODcyODM1NTgsLTYyNDI3NTAzOCwyMT
-QxOTAzOTI3LDEwOTc3NDc1MzksMjA2MDIzNzc1MywtNDY2Mzcz
-NzI1LC0xODc0NTQxOTUxLDQ4NTUzMTEyMywxNjIwMTU2NzExLC
-0yODI5NjMyNjEsMTYyMDE1NjcxMSwxODU0MjA5NTk1LC0xNDEw
-NDA4MzIyXX0=
+eyJoaXN0b3J5IjpbMTI3ODg4NDE3NSw1MDk2ODk2MzEsLTU4OD
+M3MjcxNywxMjM1MDEwODk2LDcxNTkwMTMyOSwtMTYzMjQ1MTE0
+NCwtMTM4ODE1ODU2MiwxNTQ0OTkyMTU5LC04NzI4MzU1OCwtNj
+I0Mjc1MDM4LDIxNDE5MDM5MjcsMTA5Nzc0NzUzOSwyMDYwMjM3
+NzUzLC00NjYzNzM3MjUsLTE4NzQ1NDE5NTEsNDg1NTMxMTIzLD
+E2MjAxNTY3MTEsLTI4Mjk2MzI2MSwxNjIwMTU2NzExLDE4NTQy
+MDk1OTVdfQ==
 -->
