@@ -92,7 +92,7 @@ $(1-\beta)$를 검정력(power)라고 부른다. 즉 대립 가설(alternative h
 눈치가 빠른 분이라면 뭔가 찜찜한 느낌이 들었을 것이다. 앞서 어떤 현상이 존재하는 경우와 그렇지 않은 경우를 대문자 TRUE, FALSE로 구분했다. 이를 영 가설, 대립 가설과 어떻게 매핑해야 할까? 사실 그때 그때, 문제에 맞게 정의하는 게 맞다. 중요한 것은 두 사건이 상호 배태적(mutually exclusive)이어야 한다는 것이다. 즉, 둘이 겹치는 영역이 없어야 한다. 그래야 가설 검정으로서 의미를 지닌다. 여기서는, 
 
 * TRUE = 대립 가설이 존재하는 경우 
-* FALSE = 영 가설이 참인 경우 
+* FALSE = 영 가설이 존재하는 경우 
 
 이렇게 둔다면, false positive의 확률 $\alpha는 "영 가설이 참인데 이를 기각할 확률"이 된다. 우리가 어는 유의수준 그대로다. 혼동하지 마시라!(, 라고 하지만 나도 종종 긴가민가한다...) 
 
@@ -176,11 +176,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDE1NjcxMSwtMjgyOTYzMjYxLDE2Mj
-AxNTY3MTEsMTg1NDIwOTU5NSwtMTQxMDQwODMyMiwtMTQxNTUx
-ODM1OCwtMTM1NDY3NjI2MCwtMTA0MTEyMTM0OCwxNjM0Mjc1MT
-YsNDcwMzkyMzk2LDU5MzQ2MjUwNywxNzM1MTc4MjAyLDE3ODMx
-MjE1NjUsLTEzODk4NjA3MTUsOTQ2ODU0NTY5LDY2MTU4MjkwMS
-wtMTgyNjc3MDQ2NywxNTIxMjQ5NjI3LDgxNTU3NDM1MCwxMzcz
-Njc3MzEzXX0=
+eyJoaXN0b3J5IjpbNDg1NTMxMTIzLDE2MjAxNTY3MTEsLTI4Mj
+k2MzI2MSwxNjIwMTU2NzExLDE4NTQyMDk1OTUsLTE0MTA0MDgz
+MjIsLTE0MTU1MTgzNTgsLTEzNTQ2NzYyNjAsLTEwNDExMjEzND
+gsMTYzNDI3NTE2LDQ3MDM5MjM5Niw1OTM0NjI1MDcsMTczNTE3
+ODIwMiwxNzgzMTIxNTY1LC0xMzg5ODYwNzE1LDk0Njg1NDU2OS
+w2NjE1ODI5MDEsLTE4MjY3NzA0NjcsMTUyMTI0OTYyNyw4MTU1
+NzQzNTBdfQ==
 -->
