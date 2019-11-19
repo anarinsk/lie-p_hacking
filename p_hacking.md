@@ -138,7 +138,7 @@ $$
 위 식에서 $N_F$는 FALSE에 속하는 숫자, $N_T$는 TRUE에 속하는 숫자를 각각 의미한다. 앞서 예시했던 문제를 계산해보자. 
 
 $$
-\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.2) \times 100 } = \dfrac{45}{45 + 80} = 0.36
+\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + 100 \times (1-0.2) } = \dfrac{45}{45 + 80} = 0.36
 $$
 
 생각보다 높다! 유의수준, 즉 $\alpha$ 5%가 제법 안전해 보였을지 모르겠다. 이렇게 살짝  들춰보면 연구에 찜찜한 결함이 보인다.  사실 이 문제는 더 나빠질 수도 있다! 
@@ -146,13 +146,13 @@ $$
 * 보통 $(1-\beta)$는 0.8 정도라고 간주한다. 하지만 이를 엄밀하게 확인하는 경우는 많지 않다. 만일 검정력이 별로 높지 않아서 0.2에 불과하다고 해보자. 이때 false negative가 true positive의 숫자를 잡아먹게 되고, 이에  FPRP는 0.69로 올라간다. 즉, 
 
 $$
-\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 + (1-0.8) \times 100 }  \approx 0.69
+\text{FPRP} = \dfrac{900 \times 0.05}{900 \times 0.05 +  100 \times (1-0.8) }  \approx 0.69
 $$
 
 * 조금 더 가볼까? 현상이 TRUE인 경우가 몹시 드물다고 해보자. 99%가 FALSE이고 1% 정도만 TRUE라면? 이 경우 $\beta = 0.6$, $\alpha = 0.05$가정할  FPRP는 무려 0.93이 된다. 이오니디스 선생의 주장대로 대부분의 연구가 가짜 연구가 된다! 즉, 
 
 $$
-\text{FPRP} = \dfrac{990 \times 0.05}{990 \times 0.05 + (1-0.6) \times 10 } \approx 0.93
+\text{FPRP} = \dfrac{990 \times 0.05}{990 \times 0.05 + 10 \times (1-0.6) } \approx 0.93
 $$
 
 앞서 과학자들도 사람인지라서 신기한 것을 추구한다고 말했다. 이는 신기한 현상이  관찰되기도 따라서, 검증되기 힘들다는 뜻이기도 하다. 해당 가설을 검정한다면 대부분 negative로 예측하기 쉽다. 이런 상황에서 어찌해 positive를 발견했다면 "유레카!"를 외치고 싶을 것이다. 이오니디스 선생은 우쭐하고 감탄하기에 앞서 의심이 먼저다, 라는 간단한 말씀을 하고 계실 뿐이다. 
@@ -176,11 +176,11 @@ p.s. 아마도 p&#8722;해킹에 관한 가장 익살스러운 묘사일지 모�
  :house:[lostineconomics.com](http://lostineconomics.com) | Jun Sok Huhh 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NTMxMTIzLDE2MjAxNTY3MTEsLTI4Mj
-k2MzI2MSwxNjIwMTU2NzExLDE4NTQyMDk1OTUsLTE0MTA0MDgz
-MjIsLTE0MTU1MTgzNTgsLTEzNTQ2NzYyNjAsLTEwNDExMjEzND
-gsMTYzNDI3NTE2LDQ3MDM5MjM5Niw1OTM0NjI1MDcsMTczNTE3
-ODIwMiwxNzgzMTIxNTY1LC0xMzg5ODYwNzE1LDk0Njg1NDU2OS
-w2NjE1ODI5MDEsLTE4MjY3NzA0NjcsMTUyMTI0OTYyNyw4MTU1
-NzQzNTBdfQ==
+eyJoaXN0b3J5IjpbLTE4NzQ1NDE5NTEsNDg1NTMxMTIzLDE2Mj
+AxNTY3MTEsLTI4Mjk2MzI2MSwxNjIwMTU2NzExLDE4NTQyMDk1
+OTUsLTE0MTA0MDgzMjIsLTE0MTU1MTgzNTgsLTEzNTQ2NzYyNj
+AsLTEwNDExMjEzNDgsMTYzNDI3NTE2LDQ3MDM5MjM5Niw1OTM0
+NjI1MDcsMTczNTE3ODIwMiwxNzgzMTIxNTY1LC0xMzg5ODYwNz
+E1LDk0Njg1NDU2OSw2NjE1ODI5MDEsLTE4MjY3NzA0NjcsMTUy
+MTI0OTYyN119
 -->
